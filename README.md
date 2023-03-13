@@ -10,6 +10,7 @@
 8- Login & Registration are done through Sqlite database as per requirement. Also, in UI I have used material design for textfield as per requirements.
 9- After successfull login , you will be navigated to Master detail page where you can see the list of details coming from API response.https://jsonplaceholder.typicode.com/users.
 10- Click on latitude & longitude & it will show you the map view.
+11- Country field is not mandatory, but I have showed the static countries list in a drop down.
 
 Note-
 
