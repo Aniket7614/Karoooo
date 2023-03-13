@@ -1,0 +1,2331 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		005B319B494ED2DAA239B9939A504DFC /* Alamofire-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = CE44C72C0A1F6AD0310A260A80139A1F /* Alamofire-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		007C5C97DBDC5993474CE56C2F579E14 /* MDCTextControlGradientManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 034CCE82AA2EB54A4AEFC144081F5429 /* MDCTextControlGradientManager.m */; };
+		0228109C37B0228AED9F5DCF3F45C063 /* MDCFilledTextArea.m in Sources */ = {isa = PBXBuildFile; fileRef = E77AA205BF31F31A6A4D799D1AB77387 /* MDCFilledTextArea.m */; };
+		03219B99BEEC9AB447188784DFDF4E19 /* UIImage+MaterialRTL.m in Sources */ = {isa = PBXBuildFile; fileRef = 74451B09E90E37F39E9528740463832F /* UIImage+MaterialRTL.m */; };
+		045DE6EBF9B2F63F60F5BE60C1198E06 /* RedirectHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B0E3D4ACA834288320E9D5E17FE74D0 /* RedirectHandler.swift */; };
+		04A896288CE3A59B530250337A5F8362 /* Result+Alamofire.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED9C2F0CAFC15EB7063F69CE7E5A39BF /* Result+Alamofire.swift */; };
+		04B50B00F32791E7A9F96715F7AAFB13 /* MDCTextControl.m in Sources */ = {isa = PBXBuildFile; fileRef = DE6B1447BC110C72AB7272A05D780BED /* MDCTextControl.m */; };
+		05FD4EFFD2FD95AEF332F8A2A2468304 /* MDCTextControlAssistiveLabelViewLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = 281A234282ED7ED5E6E4FAC4E45D0BA8 /* MDCTextControlAssistiveLabelViewLayout.m */; };
+		072DEF48E55F91F4B4A3EA62FAB80D2D /* MDCTextControlState.h in Headers */ = {isa = PBXBuildFile; fileRef = F375BE1723D5EBAD7C63F39B7CAB8BA1 /* MDCTextControlState.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0B217BD4EF873E6392E3E05A79A5A35F /* MDCTextControlVerticalPositioningReferenceOutlined.m in Sources */ = {isa = PBXBuildFile; fileRef = 5DF5E206904A5271FBB92D29B03F6957 /* MDCTextControlVerticalPositioningReferenceOutlined.m */; };
+		0C49EE8618C2CCA090EEE8E383BF5CFA /* Pods-KarooooSampleApp-KarooooSampleAppUITests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 7F59F8A4536CD8BDDB171E228AE1C7FC /* Pods-KarooooSampleApp-KarooooSampleAppUITests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0CABC2638472D3DE53BC7F92612122E5 /* MDCTextControlColorViewModel.h in Headers */ = {isa = PBXBuildFile; fileRef = 8E4C938765C96937943FCC056FE098D0 /* MDCTextControlColorViewModel.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0F4037DBF307AC8058BD0A3D35C7E7E9 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FD0CE05D5D076B1B5190EE5DF97FD54E /* Foundation.framework */; };
+		1062EDD2C5C3B8D7A91592F639600D74 /* MDFInternationalization.h in Headers */ = {isa = PBXBuildFile; fileRef = 4CB8F49EA4D914B09F453373EDF2909A /* MDFInternationalization.h */; };
+		11296E523965D9EC9F3C3F761A1F0EBE /* MDCTextControlPlaceholderSupport.m in Sources */ = {isa = PBXBuildFile; fileRef = D44DA021693E68E915329738BA745612 /* MDCTextControlPlaceholderSupport.m */; };
+		124EEAE22B8077371D55FDB1AC4F4D30 /* NSString+MaterialBidi.m in Sources */ = {isa = PBXBuildFile; fileRef = B2F13E75F1AFC61E77BBA269CCFF1AEB /* NSString+MaterialBidi.m */; };
+		12B032A37293C0520B963FC0A1A2B32C /* MaterialComponents-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 1B835FC6120067E70FD6CAFA0E59180E /* MaterialComponents-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		131B0274E06244A1AC175588107F8897 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FD0CE05D5D076B1B5190EE5DF97FD54E /* Foundation.framework */; };
+		15B1A1C32C8028DFD17710A44C15F2E8 /* MDCTextControlGradientManager.h in Headers */ = {isa = PBXBuildFile; fileRef = F5234CD8807840852FEE686C502E4FCC /* MDCTextControlGradientManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1976BB7D7E26A12E29283E71154B63B3 /* SessionDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A41D3AF490D8B712BF508025F5DE532B /* SessionDelegate.swift */; };
+		1DCF9A800AE274F89C29078A6E212B7D /* MDFInternationalization-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 223BC46491D899B2F4287CCD2C2F24FD /* MDFInternationalization-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1EE44196E7BCE57AD96A2C751651EF40 /* AlamofireExtended.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25084EF850900142CDC42B6CA97D2CEF /* AlamofireExtended.swift */; };
+		23AC06556CD25C4B62BF41BB2F54AD2E /* MDCTextControlLabelAnimation.h in Headers */ = {isa = PBXBuildFile; fileRef = 7A3EE3BD9B80CC98A4F6D01D9036CA73 /* MDCTextControlLabelAnimation.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		253084827ED3434F9212A11BD87760DE /* MDCTextControlAssistiveLabelView.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E34F20A71034E0A388648CDADB5E503 /* MDCTextControlAssistiveLabelView.m */; };
+		2548B16B2B0F69922C2B87EC1FF22CC5 /* MDCTextControlTextFieldSideViewAlignment.h in Headers */ = {isa = PBXBuildFile; fileRef = 42BDA9575572C94245840F7D928EB49F /* MDCTextControlTextFieldSideViewAlignment.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		25ABCCB506CD51393434BE44F446AD5F /* MDFInternationalization-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = DD5CEF40464FECB35707889BB2591131 /* MDFInternationalization-dummy.m */; };
+		2C2ADE31160D3E8DB654FC76B87BE180 /* MDCTextControlLabelAnimation.m in Sources */ = {isa = PBXBuildFile; fileRef = 63F905C361389F05F0C9A98586866590 /* MDCTextControlLabelAnimation.m */; };
+		2C8DEBF5DF71615E42933C9B9B3D7143 /* MDCTextControlAssistiveLabelDrawPriority.h in Headers */ = {isa = PBXBuildFile; fileRef = 978DE4A03E8320B769330E26A6D38A86 /* MDCTextControlAssistiveLabelDrawPriority.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2CBE3651CA006E19F5D64A2DE9B9A028 /* CachedResponseHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = C21D53981A365089EC9EAB755115AD53 /* CachedResponseHandler.swift */; };
+		2CCD13099063CD560E3067BD132914FA /* Notifications.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DED604D418E61A232113B89785D5984 /* Notifications.swift */; };
+		2F03407BC545C9A7DBFF712BC43D079D /* MDCTextControlVerticalPositioningReferenceBase.h in Headers */ = {isa = PBXBuildFile; fileRef = 8CCB37B72DB1D8F59A22D1D81E0EABF9 /* MDCTextControlVerticalPositioningReferenceBase.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		324D4CEFA1485487D2131A3AE7F79F60 /* Pods-KarooooSampleApp-KarooooSampleAppUITests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = A99D8D50349205247A916309AAFD1B6F /* Pods-KarooooSampleApp-KarooooSampleAppUITests-dummy.m */; };
+		32E0DDD45AFC662B79B819CCE50FB0F0 /* MDCTextControlAssistiveLabelView.h in Headers */ = {isa = PBXBuildFile; fileRef = ABDCF454CC67BE8FB1B00C4561F9EEF1 /* MDCTextControlAssistiveLabelView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		33A7D0F2D03004CE256A75E03DF33C70 /* RetryPolicy.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A1C14338D3598350B79370ABBE32266 /* RetryPolicy.swift */; };
+		341C48BB7DF44AE0395A0AA48C805536 /* MDCTextControlVerticalPositioningReference.h in Headers */ = {isa = PBXBuildFile; fileRef = 4F22C091B3BB14FFE7D19E4B888B1C9D /* MDCTextControlVerticalPositioningReference.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		34923FB60759B3E9955FA72D21870179 /* MDCTextControlVerticalPositioningReference.m in Sources */ = {isa = PBXBuildFile; fileRef = 4FFCB20CF5323434CF31D6DFED7D6563 /* MDCTextControlVerticalPositioningReference.m */; };
+		34D86F4481D9328BF45B637B906B3122 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FD0CE05D5D076B1B5190EE5DF97FD54E /* Foundation.framework */; };
+		356299E39252C599C641EA6B4F488703 /* Pods-KarooooSampleApp-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 856E6265FADF4C5468FE71A1C6434EDD /* Pods-KarooooSampleApp-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3C4059621E23842C19D4EB5D35B41989 /* Validation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43F6B525617449EBAA4BF5101E48DBB7 /* Validation.swift */; };
+		3CE30BDD410305F4D3C8C13D12507A4A /* NSLocale+MaterialRTL.h in Headers */ = {isa = PBXBuildFile; fileRef = 52859BAA0FB0104F8C7BF95705A5554A /* NSLocale+MaterialRTL.h */; };
+		3DCCF761B72AB77C921C6347AD39D34E /* NSLocale+MaterialRTL.h in Copy . Public Headers */ = {isa = PBXBuildFile; fileRef = 52859BAA0FB0104F8C7BF95705A5554A /* NSLocale+MaterialRTL.h */; };
+		3E80840DE673EA7ED8065D4AEAFA85C6 /* UIBezierPath+MDCTextControlStyle.h in Headers */ = {isa = PBXBuildFile; fileRef = 02D4EBD4525E321D35503B31DBAE5DEE /* UIBezierPath+MDCTextControlStyle.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3F2E51186E01B77851DDE955FD336CF8 /* UIView+MDCTimingFunction.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D19362B75E52430FA6F1C49A1AA8404 /* UIView+MDCTimingFunction.m */; };
+		405E0314BBA01011B9A49D5CFE9F67D9 /* MaterialTextControlsPrivate+TextFields.h in Headers */ = {isa = PBXBuildFile; fileRef = CA5650E603A9D62A4258D49D26466080 /* MaterialTextControlsPrivate+TextFields.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		40C1FC4AAE66027394D96C17488A3315 /* MDCTextControlVerticalPositioningReferenceUnderlined.h in Headers */ = {isa = PBXBuildFile; fileRef = 19696E7FC870F765039F968774000E9D /* MDCTextControlVerticalPositioningReferenceUnderlined.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		42325916E3EEFE4773DFB7BCC533944D /* MDCTextControlStyleUnderlined.h in Headers */ = {isa = PBXBuildFile; fileRef = 19860F3067B9D1F6B15516E1B91B236F /* MDCTextControlStyleUnderlined.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		46A64A43AFA057B6B63C8F0C12F509B4 /* Combine.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2407693ADB4D77C01F509F3E9649B8F8 /* Combine.swift */; };
+		48518D2E3050A7C8973AA35FB75D276F /* MDCOutlinedTextArea.m in Sources */ = {isa = PBXBuildFile; fileRef = 40F98F2B28012DB72AC3AF82E218A5B6 /* MDCOutlinedTextArea.m */; };
+		4AEF106BFB28503CA7C014D8E4FB8898 /* MaterialTextControls+FilledTextAreas.h in Headers */ = {isa = PBXBuildFile; fileRef = 8C13CFD72F573A340FEF9D70A024970A /* MaterialTextControls+FilledTextAreas.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4DEE99EC8F255916DABF6363F56DFEB6 /* MDCFilledTextField.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D8C2453BF352485A8543C3E501EA505 /* MDCFilledTextField.m */; };
+		4F25441140C67D1CDA646B1DB0772CF3 /* MaterialTextControls+BaseTextFields.h in Headers */ = {isa = PBXBuildFile; fileRef = 83150A9B809E05866C2A322CA978174E /* MaterialTextControls+BaseTextFields.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		515E22E4255B6073C1897BDDB091A2B8 /* DropDown+Appearance.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50605BB1262231BDEFF25ACE3461973A /* DropDown+Appearance.swift */; };
+		53626279701D93866AA6E1953AC9A443 /* MDCTextControlLabelBehavior.h in Headers */ = {isa = PBXBuildFile; fileRef = 7D7E2D23A91E4105C5B0931F3D134FCA /* MDCTextControlLabelBehavior.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		546594038A39C1C5480919C5C51FFF46 /* NSString+MaterialBidi.h in Copy . Public Headers */ = {isa = PBXBuildFile; fileRef = 6B0677062280007649D8EE43F9B9B76B /* NSString+MaterialBidi.h */; };
+		551209FDC6B570118F89380CFC81CC53 /* MDCAvailability.h in Headers */ = {isa = PBXBuildFile; fileRef = 94B804399D44AB939CEA903E593C74F3 /* MDCAvailability.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		55AABB1FB38F61A3369ACC555FF3046D /* Alamofire-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D80AB32F2DE980A4B533F5B13570301 /* Alamofire-dummy.m */; };
+		560CF187B29A0ABBA54FD59E13F131AA /* MDCBaseTextAreaDelegate.h in Headers */ = {isa = PBXBuildFile; fileRef = 976EAEE1FEC6EB68DC6B15235688AFE2 /* MDCBaseTextAreaDelegate.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		56CE1F81921448A64249E6FEE166B248 /* MDCFilledTextField.h in Headers */ = {isa = PBXBuildFile; fileRef = B33702B9D523CD67B42966F65C4DBA53 /* MDCFilledTextField.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		57B87EDFFA3D8E03625F611BC22914FC /* MDCBaseTextFieldLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = C4250A7129FFF6667A377A26E7CDF83B /* MDCBaseTextFieldLayout.m */; };
+		5AC4580D8A232C0CEE1D6553C00B3D83 /* MDCTextControlStyleBase.m in Sources */ = {isa = PBXBuildFile; fileRef = AB7DD7B2C28CDC3EA6AEA21A0AF16EA0 /* MDCTextControlStyleBase.m */; };
+		61E7985A1B3CA128703657A0FAF48C33 /* MDCTextControlState.m in Sources */ = {isa = PBXBuildFile; fileRef = 48303C964BDC5B02ED7DCE94E00751C7 /* MDCTextControlState.m */; };
+		62EF3C9F2794CDB16FB26B816210AF9F /* MaterialTextControlsPrivate+FilledStyle.h in Headers */ = {isa = PBXBuildFile; fileRef = C7CFFE9F03ACCE26FAAE2692C97F7261 /* MaterialTextControlsPrivate+FilledStyle.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		64317603918517CB58BC50355BBD14F8 /* MDFInternationalization.h in Copy . Public Headers */ = {isa = PBXBuildFile; fileRef = 4CB8F49EA4D914B09F453373EDF2909A /* MDFInternationalization.h */; };
+		6771A29FD2E1DE5BDE97E242A3C5B60F /* MDCTextControlHorizontalPositioningReference.m in Sources */ = {isa = PBXBuildFile; fileRef = 13F7C5B9E56D7F33067551F94F0042D5 /* MDCTextControlHorizontalPositioningReference.m */; };
+		68C81A493C4CD3F1D8425C3C12B6F1E3 /* MDFRTL.h in Headers */ = {isa = PBXBuildFile; fileRef = 77D8A36EB652F5DDE291317B66042A0F /* MDFRTL.h */; };
+		68E1653C561E14BBEAC9CF4873570D58 /* DropDownCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9EDFE3BB376E69B26A10E6FD9C31E514 /* DropDownCell.xib */; };
+		68FB2DCB4C77DBCAF9A6037E470F2BDE /* ParameterEncoding.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BBD36A93EB8DF97FF7745C160C84786 /* ParameterEncoding.swift */; };
+		6B6CBD24D816600F27C613609E0E67AE /* UIView+MDCTimingFunction.h in Headers */ = {isa = PBXBuildFile; fileRef = 632705B9B9C369CA21AA729EAC4193AF /* UIView+MDCTimingFunction.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6C0637B5DB7A7BDD270B9BFF7BCA444F /* MDCTextControlVerticalPositioningReferenceFilled.m in Sources */ = {isa = PBXBuildFile; fileRef = B5418430B7B4D5F2214F94450D2F95B5 /* MDCTextControlVerticalPositioningReferenceFilled.m */; };
+		733F0F22602903D3427FD3B00EAC1AA4 /* MDCOutlinedTextField.m in Sources */ = {isa = PBXBuildFile; fileRef = 3855FB0FD094987ED6A952545248C98C /* MDCOutlinedTextField.m */; };
+		74012B832FAF67F8D62A2B27CDAFE8B5 /* DPDConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8F4B6204EEF37C13E269B9FA9E42F4E /* DPDConstants.swift */; };
+		7425895B1F8D01EDF7F6F72DFF87519F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FD0CE05D5D076B1B5190EE5DF97FD54E /* Foundation.framework */; };
+		7483E5327027263F7E4B94A2997191C4 /* AuthenticationInterceptor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FFE59BE73B986E2BBAE41C3B82C7826 /* AuthenticationInterceptor.swift */; };
+		75966A9262648D4647D764E3E76BC6AC /* Response.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FB6FE6709DBA9B487C95B7A607114A1 /* Response.swift */; };
+		7930C94414B4C661867AC4FBE82E996C /* URLEncodedFormEncoder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B94676A33C5432DACE63181DE7CBE66 /* URLEncodedFormEncoder.swift */; };
+		7B068137A8925891446203B5D3D6A4ED /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8D3D57353834825F7B52B816066B7789 /* CFNetwork.framework */; };
+		7DB6497C9CC06CA922AC1152CE38CDAC /* MDFRTL.h in Copy . Public Headers */ = {isa = PBXBuildFile; fileRef = 77D8A36EB652F5DDE291317B66042A0F /* MDFRTL.h */; };
+		7E02F5B62BE00E97847DF549FFED2490 /* HTTPHeaders.swift in Sources */ = {isa = PBXBuildFile; fileRef = F45836FA83F00A85B6509012B3184ED1 /* HTTPHeaders.swift */; };
+		7E4E65080A19DB8FC6F110A0378517E7 /* MDCBaseTextFieldDelegate.h in Headers */ = {isa = PBXBuildFile; fileRef = EE53BBCE8C8137E1D32853C0EC758D3C /* MDCBaseTextFieldDelegate.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7F1BB526AAE3ECDCE90127D9D0E10261 /* StringEncoding+Alamofire.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0586559197A7094E3172A7AF5E12AE0F /* StringEncoding+Alamofire.swift */; };
+		7FE695DA8EE7FF1286556E06B692009B /* MultipartFormData.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFD996B211494CB7874EE14102D4805E /* MultipartFormData.swift */; };
+		808C960C82D708FC1A42C581D6CB4940 /* URLSessionConfiguration+Alamofire.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DDD1A3986FC4CA2A944CD800C730D67 /* URLSessionConfiguration+Alamofire.swift */; };
+		80C16CE50BBC5219B2A412DFB6A04B9A /* MaterialTextControlsPrivate+BaseStyle.h in Headers */ = {isa = PBXBuildFile; fileRef = 07D0B256D1B7671BE1473024770E9BC6 /* MaterialTextControlsPrivate+BaseStyle.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		81B8D2B7CEB25C2448B0BC9B33591A65 /* Session.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69386EDF4D854F03379ADD816E781216 /* Session.swift */; };
+		824D816B1EE404F2DD400EE678695CBE /* ResponseSerialization.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE9F8380B3D675BDFCF5ABA9E80316AF /* ResponseSerialization.swift */; };
+		82937FB337DCF47D2C9E35DFA7B5D24C /* MDCOutlinedTextArea.h in Headers */ = {isa = PBXBuildFile; fileRef = 27ACB4FA40ED00DCFE14AA496641860D /* MDCOutlinedTextArea.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		835B1901766965F29B8AFA32C512E72F /* MDCBaseTextArea.m in Sources */ = {isa = PBXBuildFile; fileRef = AFF2C5EB49C631E71B918876822BCCD0 /* MDCBaseTextArea.m */; };
+		84459C4824533C9C4FD12AFC941F3CE1 /* DropDown.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8E3596C9C93A65D30AF8847CD43674D /* DropDown.swift */; };
+		85838B6ED261E828CBEC9797EFCAB831 /* MDCBaseTextAreaLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = 9017BF4B37CAF149E638E7CB6D20B293 /* MDCBaseTextAreaLayout.m */; };
+		8857547CE9422C72C0F2CB70980FA5E3 /* MDCTextControlPlaceholderSupport.h in Headers */ = {isa = PBXBuildFile; fileRef = 69E5805BD65DF790B85F7525E2C66FBD /* MDCTextControlPlaceholderSupport.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		89A72A55273CE358DC4E7600F785C37B /* DPDKeyboardListener.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5BE28F7C6C21ED62FDECB4F714C4172 /* DPDKeyboardListener.swift */; };
+		8AD7A05E64DD589382EE6D43F6C203BB /* MaterialAnimationTiming.h in Headers */ = {isa = PBXBuildFile; fileRef = D74D968B5F2A73D65DE1A9AF8C80EA0C /* MaterialAnimationTiming.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8BC28C0EA2C4B3BFC780F507C2669CB9 /* MDCTextControlVerticalPositioningReferenceBase.m in Sources */ = {isa = PBXBuildFile; fileRef = EF1A44D6D13A32D051FE9F8F54D18917 /* MDCTextControlVerticalPositioningReferenceBase.m */; };
+		8C050C985EF60CCC3B9E25050BE20F3E /* NSLocale+MaterialRTL.m in Sources */ = {isa = PBXBuildFile; fileRef = ABA4447F2B0ED372FD255B9663F3D3FF /* NSLocale+MaterialRTL.m */; };
+		8D75FC8D7476C9674234F39F1A820D8C /* URLConvertible+URLRequestConvertible.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3E3FAE385BA460755DCF618FDE94132 /* URLConvertible+URLRequestConvertible.swift */; };
+		8EFABEE2E3BAE5BD9B93C1B58A69A178 /* UIView+MaterialRTL.h in Copy . Public Headers */ = {isa = PBXBuildFile; fileRef = E54251AD9B7BD3D3A0288F65A92633F3 /* UIView+MaterialRTL.h */; };
+		907338727C09F65DB75AA7AB9E10C3B4 /* DropDown-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = A4853F6A2DDD77D0B96C1E6395D6EBA2 /* DropDown-dummy.m */; };
+		9179BE72DBE801B47C6938115EC493CB /* MDCTextControlAssistiveLabelViewLayout.h in Headers */ = {isa = PBXBuildFile; fileRef = E8A2C48F7A1E7CBE4A08215D78A0D52A /* MDCTextControlAssistiveLabelViewLayout.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		93D7BEDB5191A074BFD17A6C27D1D57E /* MDCTextControlVerticalPositioningReferenceFilled.h in Headers */ = {isa = PBXBuildFile; fileRef = 4198A1BAE485DFD1F61AB3B10D327548 /* MDCTextControlVerticalPositioningReferenceFilled.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		984167BC563C943B94B43A01DECBEAB0 /* UIView+MaterialRTL.m in Sources */ = {isa = PBXBuildFile; fileRef = B7628121D69819D482AD443E3DD5B175 /* UIView+MaterialRTL.m */; };
+		9852446F7CF9154050DA51F75D401B7B /* MDCTextControlLabelSupport.m in Sources */ = {isa = PBXBuildFile; fileRef = A76762775D8B7E2483CDF4A9E5F4FC52 /* MDCTextControlLabelSupport.m */; };
+		985BAA560AF3619F5B8566946101AB82 /* MDCBaseTextField.m in Sources */ = {isa = PBXBuildFile; fileRef = B9405ECB45915C6B28871379DAE80370 /* MDCBaseTextField.m */; };
+		99D058E53EFEE3AC4857CDE3DBA5C004 /* ParameterEncoder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 592CC1550D4D3018D206B884D66A3AFA /* ParameterEncoder.swift */; };
+		9C9030DEDB0DF955B16FE08C50892D57 /* Concurrency.swift in Sources */ = {isa = PBXBuildFile; fileRef = 807AF04C09B5FB3E104C008CA4E56AE7 /* Concurrency.swift */; };
+		9CB2E884712123B426747103E4B61FA1 /* MDCBaseTextFieldLayout.h in Headers */ = {isa = PBXBuildFile; fileRef = B64E6C1441C2CFBB1298BE74A7148DB3 /* MDCBaseTextFieldLayout.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9EC7585B5DE3E41D4EAB7754AD889DC3 /* MDCBaseTextAreaLayout.h in Headers */ = {isa = PBXBuildFile; fileRef = EC7A206AAF18A96BB034BF5C25268DC7 /* MDCBaseTextAreaLayout.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		9F64E84B54A721D525FB5FEB6B04AD92 /* NSString+MaterialBidi.h in Headers */ = {isa = PBXBuildFile; fileRef = 6B0677062280007649D8EE43F9B9B76B /* NSString+MaterialBidi.h */; };
+		A01FAF5090124D9DC52B12745E5A528A /* CAMediaTimingFunction+MDCAnimationTiming.h in Headers */ = {isa = PBXBuildFile; fileRef = 0FB8016EEB0C0F77CD8C226BE2000D28 /* CAMediaTimingFunction+MDCAnimationTiming.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A29100AA1876DDEFF6F54694A51FDB0E /* NetworkReachabilityManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88FC5CF1BFDF4C9AA0F2C9B12352BAFB /* NetworkReachabilityManager.swift */; };
+		A3D66682878A5131BCFB72A8EB0E47CE /* MDCBaseTextAreaTextView.h in Headers */ = {isa = PBXBuildFile; fileRef = 7B7C29A13FC4C5D630949853122C4208 /* MDCBaseTextAreaTextView.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		A53BDE589BDD6483F3EEDCE5EA1DCCD3 /* Protected.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAFB195807C2599AB7531D6E67F9EA2A /* Protected.swift */; };
+		A849860C5F254160FC53D8E7188047E8 /* MaterialTextControls+BaseTextAreas.h in Headers */ = {isa = PBXBuildFile; fileRef = F21301D90D80C35FD8687E712E87F13D /* MaterialTextControls+BaseTextAreas.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A89AE527A000BD2164070082DFD0EDA1 /* MDCOutlinedTextField.h in Headers */ = {isa = PBXBuildFile; fileRef = B0215FE8920AB3215E9DAD518727B747 /* MDCOutlinedTextField.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A8D39E9F609FAA982AD85580021DCC81 /* MDCBaseTextAreaTextView.m in Sources */ = {isa = PBXBuildFile; fileRef = A5EDE8200D257568E6476F5E8FACCDB5 /* MDCBaseTextAreaTextView.m */; };
+		A96B9F83B70BF091C994F186C27BCC23 /* MaterialTextControls+OutlinedTextAreas.h in Headers */ = {isa = PBXBuildFile; fileRef = 7FFBE5EE92BDCD4F144EE3B430F3131D /* MaterialTextControls+OutlinedTextAreas.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AADC6D24A187AED5E300E5934B80CD0A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FD0CE05D5D076B1B5190EE5DF97FD54E /* Foundation.framework */; };
+		AD3AE92A97530191A5FECA3848318677 /* MaterialMathDummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 69C0B9D1D171591F6D6A5D628C6589EF /* MaterialMathDummy.m */; };
+		AFBF733F0E307E39BC49337E3A2FF1E6 /* MaterialAvailability.h in Headers */ = {isa = PBXBuildFile; fileRef = F58D351E90DC9F4A31B50CC76FA2CDC1 /* MaterialAvailability.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B3658C29BBDE1033F6269A92E612CB30 /* Request.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3F03C38617AD8E0BB474235FB495110 /* Request.swift */; };
+		B5FBED62C4990231D8738CC0B03D17A0 /* MDCTextControlHorizontalPositioning.h in Headers */ = {isa = PBXBuildFile; fileRef = 4626FF1E2249F26CAB9E7937BDFE78B8 /* MDCTextControlHorizontalPositioning.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B704B198B9B520D449260877E300D821 /* ServerTrustEvaluation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5765F6B51F6F61EE3A9088ABBEC0973C /* ServerTrustEvaluation.swift */; };
+		B73138292FFD7EA8327D834B61026A54 /* MDCTextControlHorizontalPositioningReference.h in Headers */ = {isa = PBXBuildFile; fileRef = 707823D27F3EA9259D14FEBB893F2651 /* MDCTextControlHorizontalPositioningReference.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B73E510E851686F8184E26986A470458 /* DPDUIView+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50A4CB455D6B60AA75F81F40C8AF4544 /* DPDUIView+Extension.swift */; };
+		B98BF4775D559CA1B5E2A4A2606CC9B3 /* MDCMath.h in Headers */ = {isa = PBXBuildFile; fileRef = 3E38B7170EE99637C4744FA38136360E /* MDCMath.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B98FF58F1DBCF0EE72B15E44F6FB6B2A /* MDCTextControlSideViewSupport.m in Sources */ = {isa = PBXBuildFile; fileRef = F8F6974A69FDB89DE065B894F77A328D /* MDCTextControlSideViewSupport.m */; };
+		B99E98A445397DF43BE13BB5A37BE2A0 /* Pods-KarooooSampleAppTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B3EF715B16ED8730457234B7334F14C /* Pods-KarooooSampleAppTests-dummy.m */; };
+		BAB5744AC75E06CB319846484DD29A90 /* MDCFilledTextArea.h in Headers */ = {isa = PBXBuildFile; fileRef = D743784193F725892785A0062E415A17 /* MDCFilledTextArea.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		BBB57DC0BA0089EE6AB89F6DF06637AF /* MDCTextControlSideViewSupport.h in Headers */ = {isa = PBXBuildFile; fileRef = CD8EF829CF56813DD265DD94F6C0DB50 /* MDCTextControlSideViewSupport.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		BC0ECA8F22DEDE8886E189CD0EAA1197 /* URLRequest+Alamofire.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6FEB66445912E0F6C6BDE2D695A45583 /* URLRequest+Alamofire.swift */; };
+		BDC10974A8641F01C5665C61EA37A153 /* DropDownCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 972E56B658954832D44A252542F9FEEA /* DropDownCell.swift */; };
+		BECCD91C3500DDC5274C08B7707F518A /* MDCBaseTextField.h in Headers */ = {isa = PBXBuildFile; fileRef = C2A2DE0D7BCC2E53ACE1E0ACEDC5B69A /* MDCBaseTextField.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		BF7F9976FA80C821BC13E58E30E94B5B /* MDFRTL.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A54AA345F7185CE2105657D45B2113A /* MDFRTL.m */; };
+		C033F3E94355E90147C197D165E7DEE0 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FD0CE05D5D076B1B5190EE5DF97FD54E /* Foundation.framework */; };
+		C64F93C1BC2BA54DDB0BDD8A2CBEACF3 /* Pods-KarooooSampleApp-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 52E0F6655B90E3D1B1FA7BBF409A6054 /* Pods-KarooooSampleApp-dummy.m */; };
+		C831D426128BDB02E4AD3D76666F69EC /* MaterialTextControls+Enums.h in Headers */ = {isa = PBXBuildFile; fileRef = 16A1936D7C40F29751A3BABE508E8A14 /* MaterialTextControls+Enums.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C872E018E08E0FD0B30B386614AB0E43 /* UIImage+MaterialRTL.h in Copy . Public Headers */ = {isa = PBXBuildFile; fileRef = 37851FCDC620399BFEA5E81AC193AA3A /* UIImage+MaterialRTL.h */; };
+		CB2F277B87C7D6A71DD91D7659AC1B0B /* MDCTextControlStyleFilled.m in Sources */ = {isa = PBXBuildFile; fileRef = 27C32FC214475A3703873B34D07C7754 /* MDCTextControlStyleFilled.m */; };
+		CB99BF1A0C8E3B2297CE9BE552698539 /* MaterialTextControls+OutlinedTextFields.h in Headers */ = {isa = PBXBuildFile; fileRef = 800E5BA1C51A2662D16C1D45EBB20411 /* MaterialTextControls+OutlinedTextFields.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		CEBFFEED65D877702B2F36102528CF6D /* EventMonitor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59F638C7CC98EBA43DFCD2DC47E51CB5 /* EventMonitor.swift */; };
+		CECCA4649316B6CC139383061401DCF5 /* MDCBaseTextArea.h in Headers */ = {isa = PBXBuildFile; fileRef = 748A5CE7058A27500CEA179CEB329EE5 /* MDCBaseTextArea.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		CF5396A0FE1AA7DDBD5F92C9F10BE7E2 /* MDCTextControlColorViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 71A99CC72CA945D5C3BE1B53826F8F9D /* MDCTextControlColorViewModel.m */; };
+		D0EA90FBF83350C49E6EF6C8A98D6F00 /* AFError.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8A20343C666629856E15707EAFAD7D1 /* AFError.swift */; };
+		D32A6120E0C87193CAC64B98418C0F25 /* MDCTextControlStyleFilled.h in Headers */ = {isa = PBXBuildFile; fileRef = 9E94BF22205F90BDA5E2E98749B0CAB3 /* MDCTextControlStyleFilled.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D6B4751CED01D53E4A1B6A571AAA2F83 /* HTTPMethod.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBC3A8DCBEF895437F5A13C18595E316 /* HTTPMethod.swift */; };
+		D71E02822A526707C95148E07A9826A0 /* CAMediaTimingFunction+MDCAnimationTiming.m in Sources */ = {isa = PBXBuildFile; fileRef = CCD822305B65E6261CF18D50B95DB12A /* CAMediaTimingFunction+MDCAnimationTiming.m */; };
+		DA34899BEF0668D76CBCE8C4CE47B97B /* RequestTaskMap.swift in Sources */ = {isa = PBXBuildFile; fileRef = C24C6EB2FA3766AB9F58526E7E094852 /* RequestTaskMap.swift */; };
+		DBB0A707DC4E92A72EF01CFAB8F3459F /* MDCTextControlTextField.h in Headers */ = {isa = PBXBuildFile; fileRef = 794439BFB2F24AC3552145C287315866 /* MDCTextControlTextField.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DBB9202542CFA7046C5CFD74C9900B7A /* MDCTextControlStyleOutlined.m in Sources */ = {isa = PBXBuildFile; fileRef = EB091A8C1828731814577B611E402CE0 /* MDCTextControlStyleOutlined.m */; };
+		DD902FE8D6824681C929D028655AE121 /* RequestInterceptor.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE6CB3F00F2A13DB826492557C176AC7 /* RequestInterceptor.swift */; };
+		DF60CBDDCEDCF6C28A6FCA64BCAC6B6D /* UIBezierPath+MDCTextControlStyle.m in Sources */ = {isa = PBXBuildFile; fileRef = 606A86A96B8A778E91ED2C374DC70831 /* UIBezierPath+MDCTextControlStyle.m */; };
+		E0A8C46EEE733B55971B1CC5ED65C9AA /* DropDown-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = F273696C1AA41AB8ED593971C1F88308 /* DropDown-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E27BAE864D9D70C6D06CA4E28FD54010 /* MDCTextControlStyleUnderlined.m in Sources */ = {isa = PBXBuildFile; fileRef = F27FF2F261C137C78A0C74E53280B04B /* MDCTextControlStyleUnderlined.m */; };
+		E393F114C2F4A6FFE76DF407AAFCF72E /* MDCTextControlStyleOutlined.h in Headers */ = {isa = PBXBuildFile; fileRef = F4BBB73C18A3E467E0A04E0972293B77 /* MDCTextControlStyleOutlined.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E54654D504A42C24F284A68F87F7671D /* OperationQueue+Alamofire.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81BD28B625F40191AFFEB92D61F2C624 /* OperationQueue+Alamofire.swift */; };
+		E56C430EEEEAF6E39FF0942CCD78A061 /* UIView+MaterialRTL.h in Headers */ = {isa = PBXBuildFile; fileRef = E54251AD9B7BD3D3A0288F65A92633F3 /* UIView+MaterialRTL.h */; };
+		E5C3E05C0EE6DA6883134A0E682B8EF1 /* MaterialTextControlsPrivate+UnderlinedStyle.h in Headers */ = {isa = PBXBuildFile; fileRef = D1929663DDDECAD072F4A45123233815 /* MaterialTextControlsPrivate+UnderlinedStyle.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E7D793D0F007B0667E527A19DBE6A76B /* MDCTextControlLabelSupport.h in Headers */ = {isa = PBXBuildFile; fileRef = 503ADC53A6E4BB224A6C82B1AE723F1A /* MDCTextControlLabelSupport.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E8577753653525EC3135B744C89BCFE2 /* Pods-KarooooSampleAppTests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 049659A2E1DD8D32FB7896AEDFDC3B0E /* Pods-KarooooSampleAppTests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E98C2367959D7509177CBE876C739965 /* MaterialMath.h in Headers */ = {isa = PBXBuildFile; fileRef = BC1F53A1DB39F5DAE836D14A4458A296 /* MaterialMath.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E9B4C89E7EB3B27D46AFCA452C3D426F /* MultipartUpload.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E698B8CF65922903FD032B0612856B2 /* MultipartUpload.swift */; };
+		EA8000C7DEDD240441F1F1E335854BB2 /* MaterialTextControlsPrivate+OutlinedStyle.h in Headers */ = {isa = PBXBuildFile; fileRef = DD2E8AF787FB99CEB6EC13E6BC950023 /* MaterialTextControlsPrivate+OutlinedStyle.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		EEC150B66BCCD6C80FDA7E4D1975166B /* DispatchQueue+Alamofire.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AE760D516758EF1489BF7571B73778B /* DispatchQueue+Alamofire.swift */; };
+		EF8C6345E9E04BCDB402126AF3873AFD /* MaterialComponents-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F010E7BECC4A987E5EAC9BD17CB34E1 /* MaterialComponents-dummy.m */; };
+		F05D2ECE8BC8B4903DF6EFB32782A358 /* MaterialTextControls+FilledTextFields.h in Headers */ = {isa = PBXBuildFile; fileRef = 4630AAD5016D061CE7F25AFAB43555F2 /* MaterialTextControls+FilledTextFields.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F17A4CA4664CABB331D39FE902E06843 /* Alamofire.swift in Sources */ = {isa = PBXBuildFile; fileRef = B100F7F1456D87D22FADAEE2A099D147 /* Alamofire.swift */; };
+		F445E34F759A59D0454F7FAA4C39C0B8 /* MDCTextControl.h in Headers */ = {isa = PBXBuildFile; fileRef = DDF9363F7521EAC913EDC2F5D9C447D4 /* MDCTextControl.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F602B819BE0553C1ABF804C0E7DD4ED5 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FD0CE05D5D076B1B5190EE5DF97FD54E /* Foundation.framework */; };
+		F7C059BA8B1524F4F8B58B94EF14E9FD /* MDCTextControlVerticalPositioningReferenceOutlined.h in Headers */ = {isa = PBXBuildFile; fileRef = 5F976F75820C47821630D5D7539FF491 /* MDCTextControlVerticalPositioningReferenceOutlined.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F95134B340BDE8537CEDC91162AE776B /* UIImage+MaterialRTL.h in Headers */ = {isa = PBXBuildFile; fileRef = 37851FCDC620399BFEA5E81AC193AA3A /* UIImage+MaterialRTL.h */; };
+		FBB6150C6578BC4D0DB9324EBF4E82D6 /* MDCTextControlStyleBase.h in Headers */ = {isa = PBXBuildFile; fileRef = F49275E063F6715ED3F1A895E8B486B1 /* MDCTextControlStyleBase.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		FE30CB088C8D715E3C75B35EB065001C /* MaterialTextControlsPrivate+Shared.h in Headers */ = {isa = PBXBuildFile; fileRef = 6002899F8995FF4C5E4CAB1DF503FC55 /* MaterialTextControlsPrivate+Shared.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		FE496327196BC7BB8B1798101116119A /* MDCTextControlVerticalPositioningReferenceUnderlined.m in Sources */ = {isa = PBXBuildFile; fileRef = 81A5E90B2C8C1F6BFCABBEABBCA92C10 /* MDCTextControlVerticalPositioningReferenceUnderlined.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		19A83DC5F96140E43246037BE0A75F5E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E9F9401E9C74C0C393164FD8D86D0068;
+			remoteInfo = DropDown;
+		};
+		3B2426C61E90A3CD6EDBB65680F034DD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EAAA1AD3A8A1B59AB91319EE40752C6D;
+			remoteInfo = Alamofire;
+		};
+		575AD3D2B69AC16B00AC169AD52EA9FC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6452604D6AA2D2BE90C52F537C81C4E2;
+			remoteInfo = "Pods-KarooooSampleApp";
+		};
+		5EEE32DD91C15515475DC11C9D7B002A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E9F9401E9C74C0C393164FD8D86D0068;
+			remoteInfo = DropDown;
+		};
+		633485AC7CD5AAB606A790D005F72F42 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EAAA1AD3A8A1B59AB91319EE40752C6D;
+			remoteInfo = Alamofire;
+		};
+		9F7F7385EAA4C6F0E4A3A44AAD10551C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 55A01F8E987A6E2F7F0ED141A1ECA406;
+			remoteInfo = MDFInternationalization;
+		};
+		B1ADA4CD105003C7DA202D269FBB9859 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 55A01F8E987A6E2F7F0ED141A1ECA406;
+			remoteInfo = MDFInternationalization;
+		};
+		CD09E11783D424F20D7F5C5DE02B735B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B4723B5744013DF08BE3A5FEAA286944;
+			remoteInfo = MaterialComponents;
+		};
+		E792783BE066D114CE18411D48F8396A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B4723B5744013DF08BE3A5FEAA286944;
+			remoteInfo = MaterialComponents;
+		};
+		F46A244FC8E4F59F1BD39F88CB1FEB71 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 55A01F8E987A6E2F7F0ED141A1ECA406;
+			remoteInfo = MDFInternationalization;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		85B3B64C90CFC972449F93DC4A812BBD /* Copy . Public Headers */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "$(PUBLIC_HEADERS_FOLDER_PATH)/.";
+			dstSubfolderSpec = 16;
+			files = (
+				64317603918517CB58BC50355BBD14F8 /* MDFInternationalization.h in Copy . Public Headers */,
+				7DB6497C9CC06CA922AC1152CE38CDAC /* MDFRTL.h in Copy . Public Headers */,
+				3DCCF761B72AB77C921C6347AD39D34E /* NSLocale+MaterialRTL.h in Copy . Public Headers */,
+				546594038A39C1C5480919C5C51FFF46 /* NSString+MaterialBidi.h in Copy . Public Headers */,
+				C872E018E08E0FD0B30B386614AB0E43 /* UIImage+MaterialRTL.h in Copy . Public Headers */,
+				8EFABEE2E3BAE5BD9B93C1B58A69A178 /* UIView+MaterialRTL.h in Copy . Public Headers */,
+			);
+			name = "Copy . Public Headers";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		02D4EBD4525E321D35503B31DBAE5DEE /* UIBezierPath+MDCTextControlStyle.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIBezierPath+MDCTextControlStyle.h"; path = "components/private/TextControlsPrivate/src/Shared/UIBezierPath+MDCTextControlStyle.h"; sourceTree = "<group>"; };
+		034CCE82AA2EB54A4AEFC144081F5429 /* MDCTextControlGradientManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MDCTextControlGradientManager.m; path = components/private/TextControlsPrivate/src/Shared/MDCTextControlGradientManager.m; sourceTree = "<group>"; };
+		049659A2E1DD8D32FB7896AEDFDC3B0E /* Pods-KarooooSampleAppTests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-KarooooSampleAppTests-umbrella.h"; sourceTree = "<group>"; };
+		05020DAEDD9A772326759F881D35445C /* MDFInternationalization.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = MDFInternationalization.modulemap; sourceTree = "<group>"; };
+		0586559197A7094E3172A7AF5E12AE0F /* StringEncoding+Alamofire.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "StringEncoding+Alamofire.swift"; path = "Source/StringEncoding+Alamofire.swift"; sourceTree = "<group>"; };
+		07D0B256D1B7671BE1473024770E9BC6 /* MaterialTextControlsPrivate+BaseStyle.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "MaterialTextControlsPrivate+BaseStyle.h"; path = "components/private/TextControlsPrivate/src/BaseStyle/MaterialTextControlsPrivate+BaseStyle.h"; sourceTree = "<group>"; };
+		08B5B6CCFE1A074105CFE89A5B4B5318 /* Alamofire.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = Alamofire.modulemap; sourceTree = "<group>"; };
+		0A54AA345F7185CE2105657D45B2113A /* MDFRTL.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MDFRTL.m; path = Sources/MDFRTL.m; sourceTree = "<group>"; };
+		0FB8016EEB0C0F77CD8C226BE2000D28 /* CAMediaTimingFunction+MDCAnimationTiming.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "CAMediaTimingFunction+MDCAnimationTiming.h"; path = "components/AnimationTiming/src/CAMediaTimingFunction+MDCAnimationTiming.h"; sourceTree = "<group>"; };
+		0FF4DF40471DE8C0ACFA8150F4853E53 /* Pods-KarooooSampleAppTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-KarooooSampleAppTests.debug.xcconfig"; sourceTree = "<group>"; };
+		10E27414C08AFE16AB67C2BDF1779FD7 /* Pods-KarooooSampleApp.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-KarooooSampleApp.modulemap"; sourceTree = "<group>"; };
+		13F7C5B9E56D7F33067551F94F0042D5 /* MDCTextControlHorizontalPositioningReference.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MDCTextControlHorizontalPositioningReference.m; path = components/private/TextControlsPrivate/src/Shared/MDCTextControlHorizontalPositioningReference.m; sourceTree = "<group>"; };
+		16A1936D7C40F29751A3BABE508E8A14 /* MaterialTextControls+Enums.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "MaterialTextControls+Enums.h"; path = "components/TextControls/src/Enums/MaterialTextControls+Enums.h"; sourceTree = "<group>"; };
+		17448810B3C9F84A083546476D6C8416 /* Pods-KarooooSampleApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-KarooooSampleApp.debug.xcconfig"; sourceTree = "<group>"; };
+		19696E7FC870F765039F968774000E9D /* MDCTextControlVerticalPositioningReferenceUnderlined.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MDCTextControlVerticalPositioningReferenceUnderlined.h; path = components/private/TextControlsPrivate/src/UnderlinedStyle/MDCTextControlVerticalPositioningReferenceUnderlined.h; sourceTree = "<group>"; };
+		19860F3067B9D1F6B15516E1B91B236F /* MDCTextControlStyleUnderlined.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MDCTextControlStyleUnderlined.h; path = components/private/TextControlsPrivate/src/UnderlinedStyle/MDCTextControlStyleUnderlined.h; sourceTree = "<group>"; };
+		1A1C14338D3598350B79370ABBE32266 /* RetryPolicy.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = RetryPolicy.swift; path = Source/RetryPolicy.swift; sourceTree = "<group>"; };
+		1A544ADBE666BCA96E676BF633EB3A30 /* Pods-KarooooSampleApp-KarooooSampleAppUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-KarooooSampleApp-KarooooSampleAppUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		1B835FC6120067E70FD6CAFA0E59180E /* MaterialComponents-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "MaterialComponents-umbrella.h"; sourceTree = "<group>"; };
+		1DDD1A3986FC4CA2A944CD800C730D67 /* URLSessionConfiguration+Alamofire.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "URLSessionConfiguration+Alamofire.swift"; path = "Source/URLSessionConfiguration+Alamofire.swift"; sourceTree = "<group>"; };
+		1DE85F4F7F1C45B44A9C0AB1F1191239 /* DropDown.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = DropDown.release.xcconfig; sourceTree = "<group>"; };
+		1E698B8CF65922903FD032B0612856B2 /* MultipartUpload.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MultipartUpload.swift; path = Source/MultipartUpload.swift; sourceTree = "<group>"; };
+		223BC46491D899B2F4287CCD2C2F24FD /* MDFInternationalization-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "MDFInternationalization-umbrella.h"; sourceTree = "<group>"; };
+		2392949687980AF6DD6E5CD59AFFAE9F /* Pods-KarooooSampleApp-KarooooSampleAppUITests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-KarooooSampleApp-KarooooSampleAppUITests-Info.plist"; sourceTree = "<group>"; };
+		2407693ADB4D77C01F509F3E9649B8F8 /* Combine.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Combine.swift; path = Source/Combine.swift; sourceTree = "<group>"; };
+		25084EF850900142CDC42B6CA97D2CEF /* AlamofireExtended.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AlamofireExtended.swift; path = Source/AlamofireExtended.swift; sourceTree = "<group>"; };
+		25BC204E1465428D975EB6C574F8B9E5 /* Pods-KarooooSampleApp-KarooooSampleAppUITests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-KarooooSampleApp-KarooooSampleAppUITests-frameworks.sh"; sourceTree = "<group>"; };
+		27ACB4FA40ED00DCFE14AA496641860D /* MDCOutlinedTextArea.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MDCOutlinedTextArea.h; path = components/TextControls/src/OutlinedTextAreas/MDCOutlinedTextArea.h; sourceTree = "<group>"; };
+		27C32FC214475A3703873B34D07C7754 /* MDCTextControlStyleFilled.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MDCTextControlStyleFilled.m; path = components/private/TextControlsPrivate/src/FilledStyle/MDCTextControlStyleFilled.m; sourceTree = "<group>"; };
+		281A234282ED7ED5E6E4FAC4E45D0BA8 /* MDCTextControlAssistiveLabelViewLayout.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MDCTextControlAssistiveLabelViewLayout.m; path = components/private/TextControlsPrivate/src/Shared/MDCTextControlAssistiveLabelViewLayout.m; sourceTree = "<group>"; };
+		2B0E3D4ACA834288320E9D5E17FE74D0 /* RedirectHandler.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = RedirectHandler.swift; path = Source/RedirectHandler.swift; sourceTree = "<group>"; };
+		2BBD36A93EB8DF97FF7745C160C84786 /* ParameterEncoding.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ParameterEncoding.swift; path = Source/ParameterEncoding.swift; sourceTree = "<group>"; };
+		2F010E7BECC4A987E5EAC9BD17CB34E1 /* MaterialComponents-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "MaterialComponents-dummy.m"; sourceTree = "<group>"; };
+		3172F30E4CD73B3AA5ED36AB17F0F445 /* Alamofire.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Alamofire.release.xcconfig; sourceTree = "<group>"; };
+		37851FCDC620399BFEA5E81AC193AA3A /* UIImage+MaterialRTL.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImage+MaterialRTL.h"; path = "Sources/UIImage+MaterialRTL.h"; sourceTree = "<group>"; };
+		3855FB0FD094987ED6A952545248C98C /* MDCOutlinedTextField.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MDCOutlinedTextField.m; path = components/TextControls/src/OutlinedTextFields/MDCOutlinedTextField.m; sourceTree = "<group>"; };
+		3950EE2A076CE45370C416B832D22A86 /* Pods-KarooooSampleAppTests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-KarooooSampleAppTests-Info.plist"; sourceTree = "<group>"; };
+		3C6D02B825D8B0E90CDD48CAAFBE8BA9 /* MDFInternationalization.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = MDFInternationalization.debug.xcconfig; sourceTree = "<group>"; };
+		3D1DB50FFF77F7A5CBBA1B1CF7C26B06 /* Alamofire-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Alamofire-prefix.pch"; sourceTree = "<group>"; };
+		3E38B7170EE99637C4744FA38136360E /* MDCMath.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MDCMath.h; path = components/private/Math/src/MDCMath.h; sourceTree = "<group>"; };
+		40F98F2B28012DB72AC3AF82E218A5B6 /* MDCOutlinedTextArea.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MDCOutlinedTextArea.m; path = components/TextControls/src/OutlinedTextAreas/MDCOutlinedTextArea.m; sourceTree = "<group>"; };
+		4198A1BAE485DFD1F61AB3B10D327548 /* MDCTextControlVerticalPositioningReferenceFilled.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MDCTextControlVerticalPositioningReferenceFilled.h; path = components/private/TextControlsPrivate/src/FilledStyle/MDCTextControlVerticalPositioningReferenceFilled.h; sourceTree = "<group>"; };
+		42BDA9575572C94245840F7D928EB49F /* MDCTextControlTextFieldSideViewAlignment.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MDCTextControlTextFieldSideViewAlignment.h; path = components/private/TextControlsPrivate/src/TextFields/MDCTextControlTextFieldSideViewAlignment.h; sourceTree = "<group>"; };
+		43F6B525617449EBAA4BF5101E48DBB7 /* Validation.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Validation.swift; path = Source/Validation.swift; sourceTree = "<group>"; };
+		4626FF1E2249F26CAB9E7937BDFE78B8 /* MDCTextControlHorizontalPositioning.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MDCTextControlHorizontalPositioning.h; path = components/private/TextControlsPrivate/src/Shared/MDCTextControlHorizontalPositioning.h; sourceTree = "<group>"; };
+		4630AAD5016D061CE7F25AFAB43555F2 /* MaterialTextControls+FilledTextFields.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "MaterialTextControls+FilledTextFields.h"; path = "components/TextControls/src/FilledTextFields/MaterialTextControls+FilledTextFields.h"; sourceTree = "<group>"; };
+		48303C964BDC5B02ED7DCE94E00751C7 /* MDCTextControlState.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MDCTextControlState.m; path = components/TextControls/src/Enums/MDCTextControlState.m; sourceTree = "<group>"; };
+		4AE8BAA5532FAA44D8F37BD976E19B30 /* Pods-KarooooSampleAppTests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-KarooooSampleAppTests.modulemap"; sourceTree = "<group>"; };
+		4CB8F49EA4D914B09F453373EDF2909A /* MDFInternationalization.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MDFInternationalization.h; path = Sources/MDFInternationalization.h; sourceTree = "<group>"; };
+		4D19362B75E52430FA6F1C49A1AA8404 /* UIView+MDCTimingFunction.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIView+MDCTimingFunction.m"; path = "components/AnimationTiming/src/UIView+MDCTimingFunction.m"; sourceTree = "<group>"; };
+		4D80AB32F2DE980A4B533F5B13570301 /* Alamofire-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Alamofire-dummy.m"; sourceTree = "<group>"; };
+		4D8C2453BF352485A8543C3E501EA505 /* MDCFilledTextField.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MDCFilledTextField.m; path = components/TextControls/src/FilledTextFields/MDCFilledTextField.m; sourceTree = "<group>"; };
+		4F22C091B3BB14FFE7D19E4B888B1C9D /* MDCTextControlVerticalPositioningReference.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MDCTextControlVerticalPositioningReference.h; path = components/private/TextControlsPrivate/src/Shared/MDCTextControlVerticalPositioningReference.h; sourceTree = "<group>"; };
+		4FFCB20CF5323434CF31D6DFED7D6563 /* MDCTextControlVerticalPositioningReference.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MDCTextControlVerticalPositioningReference.m; path = components/private/TextControlsPrivate/src/Shared/MDCTextControlVerticalPositioningReference.m; sourceTree = "<group>"; };
+		503ADC53A6E4BB224A6C82B1AE723F1A /* MDCTextControlLabelSupport.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MDCTextControlLabelSupport.h; path = components/private/TextControlsPrivate/src/Shared/MDCTextControlLabelSupport.h; sourceTree = "<group>"; };
+		50605BB1262231BDEFF25ACE3461973A /* DropDown+Appearance.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "DropDown+Appearance.swift"; path = "DropDown/src/DropDown+Appearance.swift"; sourceTree = "<group>"; };
+		506B3CD2FCCCCD813AC8A4EAEEBB3997 /* Pods-KarooooSampleApp-KarooooSampleAppUITests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-KarooooSampleApp-KarooooSampleAppUITests-acknowledgements.plist"; sourceTree = "<group>"; };
+		50A4CB455D6B60AA75F81F40C8AF4544 /* DPDUIView+Extension.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "DPDUIView+Extension.swift"; path = "DropDown/helpers/DPDUIView+Extension.swift"; sourceTree = "<group>"; };
+		52859BAA0FB0104F8C7BF95705A5554A /* NSLocale+MaterialRTL.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSLocale+MaterialRTL.h"; path = "Sources/NSLocale+MaterialRTL.h"; sourceTree = "<group>"; };
+		52E0F6655B90E3D1B1FA7BBF409A6054 /* Pods-KarooooSampleApp-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-KarooooSampleApp-dummy.m"; sourceTree = "<group>"; };
+		53424D20392C64E053279C80FE94FE8A /* DropDown.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = DropDown.modulemap; sourceTree = "<group>"; };
+		5364B83CC71560D02A8234278E0228FC /* Pods-KarooooSampleApp-KarooooSampleAppUITests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-KarooooSampleApp-KarooooSampleAppUITests.modulemap"; sourceTree = "<group>"; };
+		55645D8E36C17D725A5D3BCD0552257D /* MDFInternationalization-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "MDFInternationalization-Info.plist"; sourceTree = "<group>"; };
+		5765F6B51F6F61EE3A9088ABBEC0973C /* ServerTrustEvaluation.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ServerTrustEvaluation.swift; path = Source/ServerTrustEvaluation.swift; sourceTree = "<group>"; };
+		59280B2A93BB6D2C8608C19AF7A3572F /* Pods-KarooooSampleApp-KarooooSampleAppUITests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-KarooooSampleApp-KarooooSampleAppUITests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		592CC1550D4D3018D206B884D66A3AFA /* ParameterEncoder.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ParameterEncoder.swift; path = Source/ParameterEncoder.swift; sourceTree = "<group>"; };
+		5989D02B2D9CA759D6DE552F24897B7E /* Pods-KarooooSampleApp-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-KarooooSampleApp-Info.plist"; sourceTree = "<group>"; };
+		59F638C7CC98EBA43DFCD2DC47E51CB5 /* EventMonitor.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = EventMonitor.swift; path = Source/EventMonitor.swift; sourceTree = "<group>"; };
+		5AF504C4E4B6F58D87CAC327A5EAC9C5 /* Pods-KarooooSampleApp-KarooooSampleAppUITests */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-KarooooSampleApp-KarooooSampleAppUITests"; path = Pods_KarooooSampleApp_KarooooSampleAppUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5D797E9A5C5782CE845840781FA1CC81 /* Alamofire */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Alamofire; path = Alamofire.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5DF5E206904A5271FBB92D29B03F6957 /* MDCTextControlVerticalPositioningReferenceOutlined.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MDCTextControlVerticalPositioningReferenceOutlined.m; path = components/private/TextControlsPrivate/src/OutlinedStyle/MDCTextControlVerticalPositioningReferenceOutlined.m; sourceTree = "<group>"; };
+		5F976F75820C47821630D5D7539FF491 /* MDCTextControlVerticalPositioningReferenceOutlined.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MDCTextControlVerticalPositioningReferenceOutlined.h; path = components/private/TextControlsPrivate/src/OutlinedStyle/MDCTextControlVerticalPositioningReferenceOutlined.h; sourceTree = "<group>"; };
+		5FFE59BE73B986E2BBAE41C3B82C7826 /* AuthenticationInterceptor.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AuthenticationInterceptor.swift; path = Source/AuthenticationInterceptor.swift; sourceTree = "<group>"; };
+		6002899F8995FF4C5E4CAB1DF503FC55 /* MaterialTextControlsPrivate+Shared.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "MaterialTextControlsPrivate+Shared.h"; path = "components/private/TextControlsPrivate/src/Shared/MaterialTextControlsPrivate+Shared.h"; sourceTree = "<group>"; };
+		606A86A96B8A778E91ED2C374DC70831 /* UIBezierPath+MDCTextControlStyle.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIBezierPath+MDCTextControlStyle.m"; path = "components/private/TextControlsPrivate/src/Shared/UIBezierPath+MDCTextControlStyle.m"; sourceTree = "<group>"; };
+		6315E4533EFB32626C6CCE5539090184 /* Pods-KarooooSampleAppTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-KarooooSampleAppTests-acknowledgements.plist"; sourceTree = "<group>"; };
+		632705B9B9C369CA21AA729EAC4193AF /* UIView+MDCTimingFunction.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIView+MDCTimingFunction.h"; path = "components/AnimationTiming/src/UIView+MDCTimingFunction.h"; sourceTree = "<group>"; };
+		63F905C361389F05F0C9A98586866590 /* MDCTextControlLabelAnimation.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MDCTextControlLabelAnimation.m; path = components/private/TextControlsPrivate/src/Shared/MDCTextControlLabelAnimation.m; sourceTree = "<group>"; };
+		69386EDF4D854F03379ADD816E781216 /* Session.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Session.swift; path = Source/Session.swift; sourceTree = "<group>"; };
+		69C0B9D1D171591F6D6A5D628C6589EF /* MaterialMathDummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MaterialMathDummy.m; path = components/private/Math/src/MaterialMathDummy.m; sourceTree = "<group>"; };
+		69E5805BD65DF790B85F7525E2C66FBD /* MDCTextControlPlaceholderSupport.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MDCTextControlPlaceholderSupport.h; path = components/private/TextControlsPrivate/src/Shared/MDCTextControlPlaceholderSupport.h; sourceTree = "<group>"; };
+		6B0677062280007649D8EE43F9B9B76B /* NSString+MaterialBidi.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSString+MaterialBidi.h"; path = "Sources/NSString+MaterialBidi.h"; sourceTree = "<group>"; };
+		6B590C559EC6F590EDD94DD941EDAC89 /* Pods-KarooooSampleApp-KarooooSampleAppUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-KarooooSampleApp-KarooooSampleAppUITests.release.xcconfig"; sourceTree = "<group>"; };
+		6D651DB493F778F787D3F059A8FD3BC6 /* MaterialComponents.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = MaterialComponents.release.xcconfig; sourceTree = "<group>"; };
+		6E34F20A71034E0A388648CDADB5E503 /* MDCTextControlAssistiveLabelView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MDCTextControlAssistiveLabelView.m; path = components/private/TextControlsPrivate/src/Shared/MDCTextControlAssistiveLabelView.m; sourceTree = "<group>"; };
+		6FEB66445912E0F6C6BDE2D695A45583 /* URLRequest+Alamofire.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "URLRequest+Alamofire.swift"; path = "Source/URLRequest+Alamofire.swift"; sourceTree = "<group>"; };
+		707823D27F3EA9259D14FEBB893F2651 /* MDCTextControlHorizontalPositioningReference.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MDCTextControlHorizontalPositioningReference.h; path = components/private/TextControlsPrivate/src/Shared/MDCTextControlHorizontalPositioningReference.h; sourceTree = "<group>"; };
+		70F37708D1AB24C93D2C3F33CEE689CB /* MDFInternationalization.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = MDFInternationalization.release.xcconfig; sourceTree = "<group>"; };
+		71A99CC72CA945D5C3BE1B53826F8F9D /* MDCTextControlColorViewModel.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MDCTextControlColorViewModel.m; path = components/private/TextControlsPrivate/src/Shared/MDCTextControlColorViewModel.m; sourceTree = "<group>"; };
+		74451B09E90E37F39E9528740463832F /* UIImage+MaterialRTL.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIImage+MaterialRTL.m"; path = "Sources/UIImage+MaterialRTL.m"; sourceTree = "<group>"; };
+		748A5CE7058A27500CEA179CEB329EE5 /* MDCBaseTextArea.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MDCBaseTextArea.h; path = components/TextControls/src/BaseTextAreas/MDCBaseTextArea.h; sourceTree = "<group>"; };
+		7579D9A83D67B43004BD1FA1ABAA4C1B /* DropDown-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "DropDown-prefix.pch"; sourceTree = "<group>"; };
+		77D8A36EB652F5DDE291317B66042A0F /* MDFRTL.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MDFRTL.h; path = Sources/MDFRTL.h; sourceTree = "<group>"; };
+		794439BFB2F24AC3552145C287315866 /* MDCTextControlTextField.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MDCTextControlTextField.h; path = components/private/TextControlsPrivate/src/TextFields/MDCTextControlTextField.h; sourceTree = "<group>"; };
+		7A3EE3BD9B80CC98A4F6D01D9036CA73 /* MDCTextControlLabelAnimation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MDCTextControlLabelAnimation.h; path = components/private/TextControlsPrivate/src/Shared/MDCTextControlLabelAnimation.h; sourceTree = "<group>"; };
+		7AE760D516758EF1489BF7571B73778B /* DispatchQueue+Alamofire.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "DispatchQueue+Alamofire.swift"; path = "Source/DispatchQueue+Alamofire.swift"; sourceTree = "<group>"; };
+		7B3EF715B16ED8730457234B7334F14C /* Pods-KarooooSampleAppTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-KarooooSampleAppTests-dummy.m"; sourceTree = "<group>"; };
+		7B7C29A13FC4C5D630949853122C4208 /* MDCBaseTextAreaTextView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MDCBaseTextAreaTextView.h; path = components/TextControls/src/BaseTextAreas/private/MDCBaseTextAreaTextView.h; sourceTree = "<group>"; };
+		7B94676A33C5432DACE63181DE7CBE66 /* URLEncodedFormEncoder.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = URLEncodedFormEncoder.swift; path = Source/URLEncodedFormEncoder.swift; sourceTree = "<group>"; };
+		7D7E2D23A91E4105C5B0931F3D134FCA /* MDCTextControlLabelBehavior.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MDCTextControlLabelBehavior.h; path = components/TextControls/src/Enums/MDCTextControlLabelBehavior.h; sourceTree = "<group>"; };
+		7DED604D418E61A232113B89785D5984 /* Notifications.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Notifications.swift; path = Source/Notifications.swift; sourceTree = "<group>"; };
+		7F59F8A4536CD8BDDB171E228AE1C7FC /* Pods-KarooooSampleApp-KarooooSampleAppUITests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-KarooooSampleApp-KarooooSampleAppUITests-umbrella.h"; sourceTree = "<group>"; };
+		7FFBE5EE92BDCD4F144EE3B430F3131D /* MaterialTextControls+OutlinedTextAreas.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "MaterialTextControls+OutlinedTextAreas.h"; path = "components/TextControls/src/OutlinedTextAreas/MaterialTextControls+OutlinedTextAreas.h"; sourceTree = "<group>"; };
+		800E5BA1C51A2662D16C1D45EBB20411 /* MaterialTextControls+OutlinedTextFields.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "MaterialTextControls+OutlinedTextFields.h"; path = "components/TextControls/src/OutlinedTextFields/MaterialTextControls+OutlinedTextFields.h"; sourceTree = "<group>"; };
+		807AF04C09B5FB3E104C008CA4E56AE7 /* Concurrency.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Concurrency.swift; path = Source/Concurrency.swift; sourceTree = "<group>"; };
+		81A5E90B2C8C1F6BFCABBEABBCA92C10 /* MDCTextControlVerticalPositioningReferenceUnderlined.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MDCTextControlVerticalPositioningReferenceUnderlined.m; path = components/private/TextControlsPrivate/src/UnderlinedStyle/MDCTextControlVerticalPositioningReferenceUnderlined.m; sourceTree = "<group>"; };
+		81BD28B625F40191AFFEB92D61F2C624 /* OperationQueue+Alamofire.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "OperationQueue+Alamofire.swift"; path = "Source/OperationQueue+Alamofire.swift"; sourceTree = "<group>"; };
+		83150A9B809E05866C2A322CA978174E /* MaterialTextControls+BaseTextFields.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "MaterialTextControls+BaseTextFields.h"; path = "components/TextControls/src/BaseTextFields/MaterialTextControls+BaseTextFields.h"; sourceTree = "<group>"; };
+		8398671A3FD54F02D2D1D4C552C01F83 /* Pods-KarooooSampleApp */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-KarooooSampleApp"; path = Pods_KarooooSampleApp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		856E6265FADF4C5468FE71A1C6434EDD /* Pods-KarooooSampleApp-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-KarooooSampleApp-umbrella.h"; sourceTree = "<group>"; };
+		88FC5CF1BFDF4C9AA0F2C9B12352BAFB /* NetworkReachabilityManager.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = NetworkReachabilityManager.swift; path = Source/NetworkReachabilityManager.swift; sourceTree = "<group>"; };
+		8C13CFD72F573A340FEF9D70A024970A /* MaterialTextControls+FilledTextAreas.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "MaterialTextControls+FilledTextAreas.h"; path = "components/TextControls/src/FilledTextAreas/MaterialTextControls+FilledTextAreas.h"; sourceTree = "<group>"; };
+		8CCB37B72DB1D8F59A22D1D81E0EABF9 /* MDCTextControlVerticalPositioningReferenceBase.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MDCTextControlVerticalPositioningReferenceBase.h; path = components/private/TextControlsPrivate/src/BaseStyle/MDCTextControlVerticalPositioningReferenceBase.h; sourceTree = "<group>"; };
+		8D3D57353834825F7B52B816066B7789 /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/CFNetwork.framework; sourceTree = DEVELOPER_DIR; };
+		8E4C938765C96937943FCC056FE098D0 /* MDCTextControlColorViewModel.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MDCTextControlColorViewModel.h; path = components/private/TextControlsPrivate/src/Shared/MDCTextControlColorViewModel.h; sourceTree = "<group>"; };
+		8FB6FE6709DBA9B487C95B7A607114A1 /* Response.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Response.swift; path = Source/Response.swift; sourceTree = "<group>"; };
+		9017BF4B37CAF149E638E7CB6D20B293 /* MDCBaseTextAreaLayout.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MDCBaseTextAreaLayout.m; path = components/TextControls/src/BaseTextAreas/private/MDCBaseTextAreaLayout.m; sourceTree = "<group>"; };
+		94B804399D44AB939CEA903E593C74F3 /* MDCAvailability.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MDCAvailability.h; path = components/Availability/src/MDCAvailability.h; sourceTree = "<group>"; };
+		972E56B658954832D44A252542F9FEEA /* DropDownCell.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DropDownCell.swift; path = DropDown/src/DropDownCell.swift; sourceTree = "<group>"; };
+		976EAEE1FEC6EB68DC6B15235688AFE2 /* MDCBaseTextAreaDelegate.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MDCBaseTextAreaDelegate.h; path = components/TextControls/src/BaseTextAreas/MDCBaseTextAreaDelegate.h; sourceTree = "<group>"; };
+		978DE4A03E8320B769330E26A6D38A86 /* MDCTextControlAssistiveLabelDrawPriority.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MDCTextControlAssistiveLabelDrawPriority.h; path = components/private/TextControlsPrivate/src/Shared/MDCTextControlAssistiveLabelDrawPriority.h; sourceTree = "<group>"; };
+		9A2AC0B8BAC6EF061EBC28825653DF99 /* MDFInternationalization */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = MDFInternationalization; path = MDFInternationalization.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9B6725B782188F18CB76A740433F14E4 /* DropDown */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = DropDown; path = DropDown.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9C66E528339381CAF56578D3E753DAEA /* DropDown-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "DropDown-Info.plist"; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9E94BF22205F90BDA5E2E98749B0CAB3 /* MDCTextControlStyleFilled.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MDCTextControlStyleFilled.h; path = components/private/TextControlsPrivate/src/FilledStyle/MDCTextControlStyleFilled.h; sourceTree = "<group>"; };
+		9EDFE3BB376E69B26A10E6FD9C31E514 /* DropDownCell.xib */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.xib; name = DropDownCell.xib; path = DropDown/resources/DropDownCell.xib; sourceTree = "<group>"; };
+		A34157B3708EDB7D17422B3D92F591D2 /* MaterialComponents */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = MaterialComponents; path = MaterialComponents.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A41D3AF490D8B712BF508025F5DE532B /* SessionDelegate.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SessionDelegate.swift; path = Source/SessionDelegate.swift; sourceTree = "<group>"; };
+		A4853F6A2DDD77D0B96C1E6395D6EBA2 /* DropDown-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "DropDown-dummy.m"; sourceTree = "<group>"; };
+		A582BB181DAB82106E33304338C1281D /* Pods-KarooooSampleApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-KarooooSampleApp.release.xcconfig"; sourceTree = "<group>"; };
+		A5BE28F7C6C21ED62FDECB4F714C4172 /* DPDKeyboardListener.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DPDKeyboardListener.swift; path = DropDown/helpers/DPDKeyboardListener.swift; sourceTree = "<group>"; };
+		A5EDE8200D257568E6476F5E8FACCDB5 /* MDCBaseTextAreaTextView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MDCBaseTextAreaTextView.m; path = components/TextControls/src/BaseTextAreas/private/MDCBaseTextAreaTextView.m; sourceTree = "<group>"; };
+		A5FF38200A103EA377F89797DA3F9941 /* MaterialComponents-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "MaterialComponents-prefix.pch"; sourceTree = "<group>"; };
+		A75E9ED5946ADF8219F76A98D582D43D /* Pods-KarooooSampleAppTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-KarooooSampleAppTests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		A76762775D8B7E2483CDF4A9E5F4FC52 /* MDCTextControlLabelSupport.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MDCTextControlLabelSupport.m; path = components/private/TextControlsPrivate/src/Shared/MDCTextControlLabelSupport.m; sourceTree = "<group>"; };
+		A8A20343C666629856E15707EAFAD7D1 /* AFError.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AFError.swift; path = Source/AFError.swift; sourceTree = "<group>"; };
+		A99D8D50349205247A916309AAFD1B6F /* Pods-KarooooSampleApp-KarooooSampleAppUITests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-KarooooSampleApp-KarooooSampleAppUITests-dummy.m"; sourceTree = "<group>"; };
+		AB1FB3B49043EF8384EBB4B0990860A0 /* Pods-KarooooSampleApp-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-KarooooSampleApp-frameworks.sh"; sourceTree = "<group>"; };
+		AB7DD7B2C28CDC3EA6AEA21A0AF16EA0 /* MDCTextControlStyleBase.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MDCTextControlStyleBase.m; path = components/private/TextControlsPrivate/src/BaseStyle/MDCTextControlStyleBase.m; sourceTree = "<group>"; };
+		ABA4447F2B0ED372FD255B9663F3D3FF /* NSLocale+MaterialRTL.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSLocale+MaterialRTL.m"; path = "Sources/NSLocale+MaterialRTL.m"; sourceTree = "<group>"; };
+		ABDCF454CC67BE8FB1B00C4561F9EEF1 /* MDCTextControlAssistiveLabelView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MDCTextControlAssistiveLabelView.h; path = components/private/TextControlsPrivate/src/Shared/MDCTextControlAssistiveLabelView.h; sourceTree = "<group>"; };
+		AFD996B211494CB7874EE14102D4805E /* MultipartFormData.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MultipartFormData.swift; path = Source/MultipartFormData.swift; sourceTree = "<group>"; };
+		AFF2C5EB49C631E71B918876822BCCD0 /* MDCBaseTextArea.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MDCBaseTextArea.m; path = components/TextControls/src/BaseTextAreas/MDCBaseTextArea.m; sourceTree = "<group>"; };
+		B0215FE8920AB3215E9DAD518727B747 /* MDCOutlinedTextField.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MDCOutlinedTextField.h; path = components/TextControls/src/OutlinedTextFields/MDCOutlinedTextField.h; sourceTree = "<group>"; };
+		B100F7F1456D87D22FADAEE2A099D147 /* Alamofire.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Alamofire.swift; path = Source/Alamofire.swift; sourceTree = "<group>"; };
+		B269108C28AF0F32CD9AF93206FC97CA /* MDFInternationalization-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "MDFInternationalization-prefix.pch"; sourceTree = "<group>"; };
+		B2F13E75F1AFC61E77BBA269CCFF1AEB /* NSString+MaterialBidi.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSString+MaterialBidi.m"; path = "Sources/NSString+MaterialBidi.m"; sourceTree = "<group>"; };
+		B33702B9D523CD67B42966F65C4DBA53 /* MDCFilledTextField.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MDCFilledTextField.h; path = components/TextControls/src/FilledTextFields/MDCFilledTextField.h; sourceTree = "<group>"; };
+		B528F447CE5FB8BD6190A1B90CE622C8 /* Pods-KarooooSampleAppTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-KarooooSampleAppTests.release.xcconfig"; sourceTree = "<group>"; };
+		B5418430B7B4D5F2214F94450D2F95B5 /* MDCTextControlVerticalPositioningReferenceFilled.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MDCTextControlVerticalPositioningReferenceFilled.m; path = components/private/TextControlsPrivate/src/FilledStyle/MDCTextControlVerticalPositioningReferenceFilled.m; sourceTree = "<group>"; };
+		B64E6C1441C2CFBB1298BE74A7148DB3 /* MDCBaseTextFieldLayout.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MDCBaseTextFieldLayout.h; path = components/private/TextControlsPrivate/src/TextFields/MDCBaseTextFieldLayout.h; sourceTree = "<group>"; };
+		B7628121D69819D482AD443E3DD5B175 /* UIView+MaterialRTL.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIView+MaterialRTL.m"; path = "Sources/UIView+MaterialRTL.m"; sourceTree = "<group>"; };
+		B8F4B6204EEF37C13E269B9FA9E42F4E /* DPDConstants.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DPDConstants.swift; path = DropDown/helpers/DPDConstants.swift; sourceTree = "<group>"; };
+		B9405ECB45915C6B28871379DAE80370 /* MDCBaseTextField.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MDCBaseTextField.m; path = components/TextControls/src/BaseTextFields/MDCBaseTextField.m; sourceTree = "<group>"; };
+		BC1F53A1DB39F5DAE836D14A4458A296 /* MaterialMath.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MaterialMath.h; path = components/private/Math/src/MaterialMath.h; sourceTree = "<group>"; };
+		BD24115C26DF17E819D45344BFFEF3FD /* Pods-KarooooSampleAppTests */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-KarooooSampleAppTests"; path = Pods_KarooooSampleAppTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C21D53981A365089EC9EAB755115AD53 /* CachedResponseHandler.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CachedResponseHandler.swift; path = Source/CachedResponseHandler.swift; sourceTree = "<group>"; };
+		C24C6EB2FA3766AB9F58526E7E094852 /* RequestTaskMap.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = RequestTaskMap.swift; path = Source/RequestTaskMap.swift; sourceTree = "<group>"; };
+		C2A2DE0D7BCC2E53ACE1E0ACEDC5B69A /* MDCBaseTextField.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MDCBaseTextField.h; path = components/TextControls/src/BaseTextFields/MDCBaseTextField.h; sourceTree = "<group>"; };
+		C4250A7129FFF6667A377A26E7CDF83B /* MDCBaseTextFieldLayout.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MDCBaseTextFieldLayout.m; path = components/private/TextControlsPrivate/src/TextFields/MDCBaseTextFieldLayout.m; sourceTree = "<group>"; };
+		C7CFFE9F03ACCE26FAAE2692C97F7261 /* MaterialTextControlsPrivate+FilledStyle.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "MaterialTextControlsPrivate+FilledStyle.h"; path = "components/private/TextControlsPrivate/src/FilledStyle/MaterialTextControlsPrivate+FilledStyle.h"; sourceTree = "<group>"; };
+		CA5650E603A9D62A4258D49D26466080 /* MaterialTextControlsPrivate+TextFields.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "MaterialTextControlsPrivate+TextFields.h"; path = "components/private/TextControlsPrivate/src/TextFields/MaterialTextControlsPrivate+TextFields.h"; sourceTree = "<group>"; };
+		CBC3A8DCBEF895437F5A13C18595E316 /* HTTPMethod.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = HTTPMethod.swift; path = Source/HTTPMethod.swift; sourceTree = "<group>"; };
+		CCD822305B65E6261CF18D50B95DB12A /* CAMediaTimingFunction+MDCAnimationTiming.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "CAMediaTimingFunction+MDCAnimationTiming.m"; path = "components/AnimationTiming/src/CAMediaTimingFunction+MDCAnimationTiming.m"; sourceTree = "<group>"; };
+		CD8EF829CF56813DD265DD94F6C0DB50 /* MDCTextControlSideViewSupport.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MDCTextControlSideViewSupport.h; path = components/private/TextControlsPrivate/src/Shared/MDCTextControlSideViewSupport.h; sourceTree = "<group>"; };
+		CE44C72C0A1F6AD0310A260A80139A1F /* Alamofire-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Alamofire-umbrella.h"; sourceTree = "<group>"; };
+		CFCBB47E0053DD37495578E4D0825113 /* Alamofire.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Alamofire.debug.xcconfig; sourceTree = "<group>"; };
+		D1929663DDDECAD072F4A45123233815 /* MaterialTextControlsPrivate+UnderlinedStyle.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "MaterialTextControlsPrivate+UnderlinedStyle.h"; path = "components/private/TextControlsPrivate/src/UnderlinedStyle/MaterialTextControlsPrivate+UnderlinedStyle.h"; sourceTree = "<group>"; };
+		D30004C847EFD96DC8C5A2119BFD2E5A /* MaterialComponents-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "MaterialComponents-Info.plist"; sourceTree = "<group>"; };
+		D44DA021693E68E915329738BA745612 /* MDCTextControlPlaceholderSupport.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MDCTextControlPlaceholderSupport.m; path = components/private/TextControlsPrivate/src/Shared/MDCTextControlPlaceholderSupport.m; sourceTree = "<group>"; };
+		D63E70CAF8F594B5A2AA3059C223641D /* MaterialComponents.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = MaterialComponents.debug.xcconfig; sourceTree = "<group>"; };
+		D743784193F725892785A0062E415A17 /* MDCFilledTextArea.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MDCFilledTextArea.h; path = components/TextControls/src/FilledTextAreas/MDCFilledTextArea.h; sourceTree = "<group>"; };
+		D74D968B5F2A73D65DE1A9AF8C80EA0C /* MaterialAnimationTiming.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MaterialAnimationTiming.h; path = components/AnimationTiming/src/MaterialAnimationTiming.h; sourceTree = "<group>"; };
+		D97687594D55D2BD05FB03F6D9ED85A1 /* Pods-KarooooSampleApp-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-KarooooSampleApp-acknowledgements.markdown"; sourceTree = "<group>"; };
+		DAFB195807C2599AB7531D6E67F9EA2A /* Protected.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Protected.swift; path = Source/Protected.swift; sourceTree = "<group>"; };
+		DD2E8AF787FB99CEB6EC13E6BC950023 /* MaterialTextControlsPrivate+OutlinedStyle.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "MaterialTextControlsPrivate+OutlinedStyle.h"; path = "components/private/TextControlsPrivate/src/OutlinedStyle/MaterialTextControlsPrivate+OutlinedStyle.h"; sourceTree = "<group>"; };
+		DD5CEF40464FECB35707889BB2591131 /* MDFInternationalization-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "MDFInternationalization-dummy.m"; sourceTree = "<group>"; };
+		DDF9363F7521EAC913EDC2F5D9C447D4 /* MDCTextControl.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MDCTextControl.h; path = components/private/TextControlsPrivate/src/Shared/MDCTextControl.h; sourceTree = "<group>"; };
+		DE6B1447BC110C72AB7272A05D780BED /* MDCTextControl.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MDCTextControl.m; path = components/private/TextControlsPrivate/src/Shared/MDCTextControl.m; sourceTree = "<group>"; };
+		E3F03C38617AD8E0BB474235FB495110 /* Request.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Request.swift; path = Source/Request.swift; sourceTree = "<group>"; };
+		E54251AD9B7BD3D3A0288F65A92633F3 /* UIView+MaterialRTL.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIView+MaterialRTL.h"; path = "Sources/UIView+MaterialRTL.h"; sourceTree = "<group>"; };
+		E77AA205BF31F31A6A4D799D1AB77387 /* MDCFilledTextArea.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MDCFilledTextArea.m; path = components/TextControls/src/FilledTextAreas/MDCFilledTextArea.m; sourceTree = "<group>"; };
+		E8A2C48F7A1E7CBE4A08215D78A0D52A /* MDCTextControlAssistiveLabelViewLayout.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MDCTextControlAssistiveLabelViewLayout.h; path = components/private/TextControlsPrivate/src/Shared/MDCTextControlAssistiveLabelViewLayout.h; sourceTree = "<group>"; };
+		E8E3596C9C93A65D30AF8847CD43674D /* DropDown.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DropDown.swift; path = DropDown/src/DropDown.swift; sourceTree = "<group>"; };
+		EB091A8C1828731814577B611E402CE0 /* MDCTextControlStyleOutlined.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MDCTextControlStyleOutlined.m; path = components/private/TextControlsPrivate/src/OutlinedStyle/MDCTextControlStyleOutlined.m; sourceTree = "<group>"; };
+		EC7A206AAF18A96BB034BF5C25268DC7 /* MDCBaseTextAreaLayout.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MDCBaseTextAreaLayout.h; path = components/TextControls/src/BaseTextAreas/private/MDCBaseTextAreaLayout.h; sourceTree = "<group>"; };
+		ED9C2F0CAFC15EB7063F69CE7E5A39BF /* Result+Alamofire.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "Result+Alamofire.swift"; path = "Source/Result+Alamofire.swift"; sourceTree = "<group>"; };
+		EE53BBCE8C8137E1D32853C0EC758D3C /* MDCBaseTextFieldDelegate.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MDCBaseTextFieldDelegate.h; path = components/TextControls/src/BaseTextFields/MDCBaseTextFieldDelegate.h; sourceTree = "<group>"; };
+		EE9F8380B3D675BDFCF5ABA9E80316AF /* ResponseSerialization.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ResponseSerialization.swift; path = Source/ResponseSerialization.swift; sourceTree = "<group>"; };
+		EF1A44D6D13A32D051FE9F8F54D18917 /* MDCTextControlVerticalPositioningReferenceBase.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MDCTextControlVerticalPositioningReferenceBase.m; path = components/private/TextControlsPrivate/src/BaseStyle/MDCTextControlVerticalPositioningReferenceBase.m; sourceTree = "<group>"; };
+		F01F99085B58F75055FC3721B75C2493 /* Alamofire-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Alamofire-Info.plist"; sourceTree = "<group>"; };
+		F21301D90D80C35FD8687E712E87F13D /* MaterialTextControls+BaseTextAreas.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "MaterialTextControls+BaseTextAreas.h"; path = "components/TextControls/src/BaseTextAreas/MaterialTextControls+BaseTextAreas.h"; sourceTree = "<group>"; };
+		F273696C1AA41AB8ED593971C1F88308 /* DropDown-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "DropDown-umbrella.h"; sourceTree = "<group>"; };
+		F27FF2F261C137C78A0C74E53280B04B /* MDCTextControlStyleUnderlined.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MDCTextControlStyleUnderlined.m; path = components/private/TextControlsPrivate/src/UnderlinedStyle/MDCTextControlStyleUnderlined.m; sourceTree = "<group>"; };
+		F375BE1723D5EBAD7C63F39B7CAB8BA1 /* MDCTextControlState.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MDCTextControlState.h; path = components/TextControls/src/Enums/MDCTextControlState.h; sourceTree = "<group>"; };
+		F3E3FAE385BA460755DCF618FDE94132 /* URLConvertible+URLRequestConvertible.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "URLConvertible+URLRequestConvertible.swift"; path = "Source/URLConvertible+URLRequestConvertible.swift"; sourceTree = "<group>"; };
+		F45836FA83F00A85B6509012B3184ED1 /* HTTPHeaders.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = HTTPHeaders.swift; path = Source/HTTPHeaders.swift; sourceTree = "<group>"; };
+		F49275E063F6715ED3F1A895E8B486B1 /* MDCTextControlStyleBase.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MDCTextControlStyleBase.h; path = components/private/TextControlsPrivate/src/BaseStyle/MDCTextControlStyleBase.h; sourceTree = "<group>"; };
+		F4BBB73C18A3E467E0A04E0972293B77 /* MDCTextControlStyleOutlined.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MDCTextControlStyleOutlined.h; path = components/private/TextControlsPrivate/src/OutlinedStyle/MDCTextControlStyleOutlined.h; sourceTree = "<group>"; };
+		F5234CD8807840852FEE686C502E4FCC /* MDCTextControlGradientManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MDCTextControlGradientManager.h; path = components/private/TextControlsPrivate/src/Shared/MDCTextControlGradientManager.h; sourceTree = "<group>"; };
+		F58D351E90DC9F4A31B50CC76FA2CDC1 /* MaterialAvailability.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MaterialAvailability.h; path = components/Availability/src/MaterialAvailability.h; sourceTree = "<group>"; };
+		F76541E6ACB268340CD76F46C570D019 /* Pods-KarooooSampleApp-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-KarooooSampleApp-acknowledgements.plist"; sourceTree = "<group>"; };
+		F8F6974A69FDB89DE065B894F77A328D /* MDCTextControlSideViewSupport.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MDCTextControlSideViewSupport.m; path = components/private/TextControlsPrivate/src/Shared/MDCTextControlSideViewSupport.m; sourceTree = "<group>"; };
+		FABC00415BDDF9885072831E10815CF7 /* MaterialComponents.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = MaterialComponents.modulemap; sourceTree = "<group>"; };
+		FB9844B513AD59F789BBFD50B0369E77 /* DropDown.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = DropDown.debug.xcconfig; sourceTree = "<group>"; };
+		FD0CE05D5D076B1B5190EE5DF97FD54E /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		FE6CB3F00F2A13DB826492557C176AC7 /* RequestInterceptor.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = RequestInterceptor.swift; path = Source/RequestInterceptor.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		11551701590D64A97F801BD35F314A19 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7425895B1F8D01EDF7F6F72DFF87519F /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		15DC142A7EE833251AA37FC8E2B8E01F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7B068137A8925891446203B5D3D6A4ED /* CFNetwork.framework in Frameworks */,
+				0F4037DBF307AC8058BD0A3D35C7E7E9 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1825DE1C59FFDF085F7FE06E9DCFDD65 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				131B0274E06244A1AC175588107F8897 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		291FEDACD40BDCC391AE0B0E020649AF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AADC6D24A187AED5E300E5934B80CD0A /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		56BC9D00CFB3961FE2C8BB7F65F2B3E7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F602B819BE0553C1ABF804C0E7DD4ED5 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		808BE4E171BD75B6477EC2B77490C2B1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				34D86F4481D9328BF45B637B906B3122 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A563BE445A159E73000F25A2BC3B940E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C033F3E94355E90147C197D165E7DEE0 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0075274E9D7817E7796F0C9B481BC7FB /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				08B5B6CCFE1A074105CFE89A5B4B5318 /* Alamofire.modulemap */,
+				4D80AB32F2DE980A4B533F5B13570301 /* Alamofire-dummy.m */,
+				F01F99085B58F75055FC3721B75C2493 /* Alamofire-Info.plist */,
+				3D1DB50FFF77F7A5CBBA1B1CF7C26B06 /* Alamofire-prefix.pch */,
+				CE44C72C0A1F6AD0310A260A80139A1F /* Alamofire-umbrella.h */,
+				CFCBB47E0053DD37495578E4D0825113 /* Alamofire.debug.xcconfig */,
+				3172F30E4CD73B3AA5ED36AB17F0F445 /* Alamofire.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/Alamofire";
+			sourceTree = "<group>";
+		};
+		01CA242FFE4B0223E06736A91E2C4D0B /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				53424D20392C64E053279C80FE94FE8A /* DropDown.modulemap */,
+				A4853F6A2DDD77D0B96C1E6395D6EBA2 /* DropDown-dummy.m */,
+				9C66E528339381CAF56578D3E753DAEA /* DropDown-Info.plist */,
+				7579D9A83D67B43004BD1FA1ABAA4C1B /* DropDown-prefix.pch */,
+				F273696C1AA41AB8ED593971C1F88308 /* DropDown-umbrella.h */,
+				FB9844B513AD59F789BBFD50B0369E77 /* DropDown.debug.xcconfig */,
+				1DE85F4F7F1C45B44A9C0AB1F1191239 /* DropDown.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/DropDown";
+			sourceTree = "<group>";
+		};
+		0C824640B09E3E429E8D96493FAAF523 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				BF02B7A2BC60EA7A5E6CF196B79C3BE5 /* Alamofire */,
+				2E6970B75BDCBC3ADF09E25B23EF6ACE /* DropDown */,
+				79DFA1BA1BE324BDD85D286704B89A47 /* MaterialComponents */,
+				C242390A6213C8CD06CB80DEB0F8F9CF /* MDFInternationalization */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		160B1873C007F418661B454316A6FF56 /* TextControls+Enums */ = {
+			isa = PBXGroup;
+			children = (
+				16A1936D7C40F29751A3BABE508E8A14 /* MaterialTextControls+Enums.h */,
+				7D7E2D23A91E4105C5B0931F3D134FCA /* MDCTextControlLabelBehavior.h */,
+				F375BE1723D5EBAD7C63F39B7CAB8BA1 /* MDCTextControlState.h */,
+				48303C964BDC5B02ED7DCE94E00751C7 /* MDCTextControlState.m */,
+			);
+			name = "TextControls+Enums";
+			sourceTree = "<group>";
+		};
+		1628BF05B4CAFDCC3549A101F5A10A17 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				61C8CC330A5CA84DA2F5F1D32AB07069 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		1CB81BAC0551565E823BC7809D5BD2F9 /* TextControlsPrivate+OutlinedStyle */ = {
+			isa = PBXGroup;
+			children = (
+				DD2E8AF787FB99CEB6EC13E6BC950023 /* MaterialTextControlsPrivate+OutlinedStyle.h */,
+				F4BBB73C18A3E467E0A04E0972293B77 /* MDCTextControlStyleOutlined.h */,
+				EB091A8C1828731814577B611E402CE0 /* MDCTextControlStyleOutlined.m */,
+				5F976F75820C47821630D5D7539FF491 /* MDCTextControlVerticalPositioningReferenceOutlined.h */,
+				5DF5E206904A5271FBB92D29B03F6957 /* MDCTextControlVerticalPositioningReferenceOutlined.m */,
+			);
+			name = "TextControlsPrivate+OutlinedStyle";
+			sourceTree = "<group>";
+		};
+		1DF50B60A6F393C42E564DDD158B41EC /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				9EDFE3BB376E69B26A10E6FD9C31E514 /* DropDownCell.xib */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		2E6970B75BDCBC3ADF09E25B23EF6ACE /* DropDown */ = {
+			isa = PBXGroup;
+			children = (
+				B8F4B6204EEF37C13E269B9FA9E42F4E /* DPDConstants.swift */,
+				A5BE28F7C6C21ED62FDECB4F714C4172 /* DPDKeyboardListener.swift */,
+				50A4CB455D6B60AA75F81F40C8AF4544 /* DPDUIView+Extension.swift */,
+				E8E3596C9C93A65D30AF8847CD43674D /* DropDown.swift */,
+				50605BB1262231BDEFF25ACE3461973A /* DropDown+Appearance.swift */,
+				972E56B658954832D44A252542F9FEEA /* DropDownCell.swift */,
+				1DF50B60A6F393C42E564DDD158B41EC /* Resources */,
+				01CA242FFE4B0223E06736A91E2C4D0B /* Support Files */,
+			);
+			name = DropDown;
+			path = DropDown;
+			sourceTree = "<group>";
+		};
+		33ADF394CEBFCAE39383FBA806D59202 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				F6A612712CF14FAA56D5C3CCC8177E52 /* Pods-KarooooSampleApp */,
+				F355097B07838291C68D98E6957B8958 /* Pods-KarooooSampleApp-KarooooSampleAppUITests */,
+				50A2CEF27DA97099C076A39D41DDF8E1 /* Pods-KarooooSampleAppTests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		459453E38D94A184E8FF6707AB6881E8 /* Availability */ = {
+			isa = PBXGroup;
+			children = (
+				F58D351E90DC9F4A31B50CC76FA2CDC1 /* MaterialAvailability.h */,
+				94B804399D44AB939CEA903E593C74F3 /* MDCAvailability.h */,
+			);
+			name = Availability;
+			sourceTree = "<group>";
+		};
+		4762E71453433F401FA9BF541455BC25 /* TextControlsPrivate+UnderlinedStyle */ = {
+			isa = PBXGroup;
+			children = (
+				D1929663DDDECAD072F4A45123233815 /* MaterialTextControlsPrivate+UnderlinedStyle.h */,
+				19860F3067B9D1F6B15516E1B91B236F /* MDCTextControlStyleUnderlined.h */,
+				F27FF2F261C137C78A0C74E53280B04B /* MDCTextControlStyleUnderlined.m */,
+				19696E7FC870F765039F968774000E9D /* MDCTextControlVerticalPositioningReferenceUnderlined.h */,
+				81A5E90B2C8C1F6BFCABBEABBCA92C10 /* MDCTextControlVerticalPositioningReferenceUnderlined.m */,
+			);
+			name = "TextControlsPrivate+UnderlinedStyle";
+			sourceTree = "<group>";
+		};
+		50A2CEF27DA97099C076A39D41DDF8E1 /* Pods-KarooooSampleAppTests */ = {
+			isa = PBXGroup;
+			children = (
+				4AE8BAA5532FAA44D8F37BD976E19B30 /* Pods-KarooooSampleAppTests.modulemap */,
+				A75E9ED5946ADF8219F76A98D582D43D /* Pods-KarooooSampleAppTests-acknowledgements.markdown */,
+				6315E4533EFB32626C6CCE5539090184 /* Pods-KarooooSampleAppTests-acknowledgements.plist */,
+				7B3EF715B16ED8730457234B7334F14C /* Pods-KarooooSampleAppTests-dummy.m */,
+				3950EE2A076CE45370C416B832D22A86 /* Pods-KarooooSampleAppTests-Info.plist */,
+				049659A2E1DD8D32FB7896AEDFDC3B0E /* Pods-KarooooSampleAppTests-umbrella.h */,
+				0FF4DF40471DE8C0ACFA8150F4853E53 /* Pods-KarooooSampleAppTests.debug.xcconfig */,
+				B528F447CE5FB8BD6190A1B90CE622C8 /* Pods-KarooooSampleAppTests.release.xcconfig */,
+			);
+			name = "Pods-KarooooSampleAppTests";
+			path = "Target Support Files/Pods-KarooooSampleAppTests";
+			sourceTree = "<group>";
+		};
+		570F361BFB6E8150623E6422DB837324 /* TextControlsPrivate+BaseStyle */ = {
+			isa = PBXGroup;
+			children = (
+				07D0B256D1B7671BE1473024770E9BC6 /* MaterialTextControlsPrivate+BaseStyle.h */,
+				F49275E063F6715ED3F1A895E8B486B1 /* MDCTextControlStyleBase.h */,
+				AB7DD7B2C28CDC3EA6AEA21A0AF16EA0 /* MDCTextControlStyleBase.m */,
+				8CCB37B72DB1D8F59A22D1D81E0EABF9 /* MDCTextControlVerticalPositioningReferenceBase.h */,
+				EF1A44D6D13A32D051FE9F8F54D18917 /* MDCTextControlVerticalPositioningReferenceBase.m */,
+			);
+			name = "TextControlsPrivate+BaseStyle";
+			sourceTree = "<group>";
+		};
+		61C8CC330A5CA84DA2F5F1D32AB07069 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				8D3D57353834825F7B52B816066B7789 /* CFNetwork.framework */,
+				FD0CE05D5D076B1B5190EE5DF97FD54E /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		6A7885179098D250A5815AD496730D8B /* TextControls+BaseTextFields */ = {
+			isa = PBXGroup;
+			children = (
+				83150A9B809E05866C2A322CA978174E /* MaterialTextControls+BaseTextFields.h */,
+				C2A2DE0D7BCC2E53ACE1E0ACEDC5B69A /* MDCBaseTextField.h */,
+				B9405ECB45915C6B28871379DAE80370 /* MDCBaseTextField.m */,
+				EE53BBCE8C8137E1D32853C0EC758D3C /* MDCBaseTextFieldDelegate.h */,
+			);
+			name = "TextControls+BaseTextFields";
+			sourceTree = "<group>";
+		};
+		79DFA1BA1BE324BDD85D286704B89A47 /* MaterialComponents */ = {
+			isa = PBXGroup;
+			children = (
+				F13C1AC47BC8199902D33931C46869A7 /* AnimationTiming */,
+				459453E38D94A184E8FF6707AB6881E8 /* Availability */,
+				ECCE27C132F7E1A974D9FDD12AEB26D7 /* private */,
+				9FFEE1F62D1999B3181A61D71FBF126B /* Support Files */,
+				E7F49185A5EEDDB7279BDAAB386E7850 /* TextControls+BaseTextAreas */,
+				6A7885179098D250A5815AD496730D8B /* TextControls+BaseTextFields */,
+				160B1873C007F418661B454316A6FF56 /* TextControls+Enums */,
+				7B6F5BC27C09379DFD781162A82C8A65 /* TextControls+FilledTextAreas */,
+				FD2872FCDC96DEA9138950BCDF3D33D9 /* TextControls+FilledTextFields */,
+				F4B94FCA23BC473F7442CFD35088572A /* TextControls+OutlinedTextAreas */,
+				F806DDB2E90EDF47197BC8D39D6D96AF /* TextControls+OutlinedTextFields */,
+			);
+			name = MaterialComponents;
+			path = MaterialComponents;
+			sourceTree = "<group>";
+		};
+		7B6F5BC27C09379DFD781162A82C8A65 /* TextControls+FilledTextAreas */ = {
+			isa = PBXGroup;
+			children = (
+				8C13CFD72F573A340FEF9D70A024970A /* MaterialTextControls+FilledTextAreas.h */,
+				D743784193F725892785A0062E415A17 /* MDCFilledTextArea.h */,
+				E77AA205BF31F31A6A4D799D1AB77387 /* MDCFilledTextArea.m */,
+			);
+			name = "TextControls+FilledTextAreas";
+			sourceTree = "<group>";
+		};
+		8BD99A08A5AA1C521E40E4841BED3233 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5D797E9A5C5782CE845840781FA1CC81 /* Alamofire */,
+				9B6725B782188F18CB76A740433F14E4 /* DropDown */,
+				A34157B3708EDB7D17422B3D92F591D2 /* MaterialComponents */,
+				9A2AC0B8BAC6EF061EBC28825653DF99 /* MDFInternationalization */,
+				8398671A3FD54F02D2D1D4C552C01F83 /* Pods-KarooooSampleApp */,
+				5AF504C4E4B6F58D87CAC327A5EAC9C5 /* Pods-KarooooSampleApp-KarooooSampleAppUITests */,
+				BD24115C26DF17E819D45344BFFEF3FD /* Pods-KarooooSampleAppTests */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		98A6B6CB68F77689DBA950358FD305ED /* TextControlsPrivate+FilledStyle */ = {
+			isa = PBXGroup;
+			children = (
+				C7CFFE9F03ACCE26FAAE2692C97F7261 /* MaterialTextControlsPrivate+FilledStyle.h */,
+				9E94BF22205F90BDA5E2E98749B0CAB3 /* MDCTextControlStyleFilled.h */,
+				27C32FC214475A3703873B34D07C7754 /* MDCTextControlStyleFilled.m */,
+				4198A1BAE485DFD1F61AB3B10D327548 /* MDCTextControlVerticalPositioningReferenceFilled.h */,
+				B5418430B7B4D5F2214F94450D2F95B5 /* MDCTextControlVerticalPositioningReferenceFilled.m */,
+			);
+			name = "TextControlsPrivate+FilledStyle";
+			sourceTree = "<group>";
+		};
+		9FFEE1F62D1999B3181A61D71FBF126B /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				FABC00415BDDF9885072831E10815CF7 /* MaterialComponents.modulemap */,
+				2F010E7BECC4A987E5EAC9BD17CB34E1 /* MaterialComponents-dummy.m */,
+				D30004C847EFD96DC8C5A2119BFD2E5A /* MaterialComponents-Info.plist */,
+				A5FF38200A103EA377F89797DA3F9941 /* MaterialComponents-prefix.pch */,
+				1B835FC6120067E70FD6CAFA0E59180E /* MaterialComponents-umbrella.h */,
+				D63E70CAF8F594B5A2AA3059C223641D /* MaterialComponents.debug.xcconfig */,
+				6D651DB493F778F787D3F059A8FD3BC6 /* MaterialComponents.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/MaterialComponents";
+			sourceTree = "<group>";
+		};
+		AEA8E72CCFD1C82C165AF930CA70AE1B /* Math */ = {
+			isa = PBXGroup;
+			children = (
+				BC1F53A1DB39F5DAE836D14A4458A296 /* MaterialMath.h */,
+				69C0B9D1D171591F6D6A5D628C6589EF /* MaterialMathDummy.m */,
+				3E38B7170EE99637C4744FA38136360E /* MDCMath.h */,
+			);
+			name = Math;
+			sourceTree = "<group>";
+		};
+		BF02B7A2BC60EA7A5E6CF196B79C3BE5 /* Alamofire */ = {
+			isa = PBXGroup;
+			children = (
+				A8A20343C666629856E15707EAFAD7D1 /* AFError.swift */,
+				B100F7F1456D87D22FADAEE2A099D147 /* Alamofire.swift */,
+				25084EF850900142CDC42B6CA97D2CEF /* AlamofireExtended.swift */,
+				5FFE59BE73B986E2BBAE41C3B82C7826 /* AuthenticationInterceptor.swift */,
+				C21D53981A365089EC9EAB755115AD53 /* CachedResponseHandler.swift */,
+				2407693ADB4D77C01F509F3E9649B8F8 /* Combine.swift */,
+				807AF04C09B5FB3E104C008CA4E56AE7 /* Concurrency.swift */,
+				7AE760D516758EF1489BF7571B73778B /* DispatchQueue+Alamofire.swift */,
+				59F638C7CC98EBA43DFCD2DC47E51CB5 /* EventMonitor.swift */,
+				F45836FA83F00A85B6509012B3184ED1 /* HTTPHeaders.swift */,
+				CBC3A8DCBEF895437F5A13C18595E316 /* HTTPMethod.swift */,
+				AFD996B211494CB7874EE14102D4805E /* MultipartFormData.swift */,
+				1E698B8CF65922903FD032B0612856B2 /* MultipartUpload.swift */,
+				88FC5CF1BFDF4C9AA0F2C9B12352BAFB /* NetworkReachabilityManager.swift */,
+				7DED604D418E61A232113B89785D5984 /* Notifications.swift */,
+				81BD28B625F40191AFFEB92D61F2C624 /* OperationQueue+Alamofire.swift */,
+				592CC1550D4D3018D206B884D66A3AFA /* ParameterEncoder.swift */,
+				2BBD36A93EB8DF97FF7745C160C84786 /* ParameterEncoding.swift */,
+				DAFB195807C2599AB7531D6E67F9EA2A /* Protected.swift */,
+				2B0E3D4ACA834288320E9D5E17FE74D0 /* RedirectHandler.swift */,
+				E3F03C38617AD8E0BB474235FB495110 /* Request.swift */,
+				FE6CB3F00F2A13DB826492557C176AC7 /* RequestInterceptor.swift */,
+				C24C6EB2FA3766AB9F58526E7E094852 /* RequestTaskMap.swift */,
+				8FB6FE6709DBA9B487C95B7A607114A1 /* Response.swift */,
+				EE9F8380B3D675BDFCF5ABA9E80316AF /* ResponseSerialization.swift */,
+				ED9C2F0CAFC15EB7063F69CE7E5A39BF /* Result+Alamofire.swift */,
+				1A1C14338D3598350B79370ABBE32266 /* RetryPolicy.swift */,
+				5765F6B51F6F61EE3A9088ABBEC0973C /* ServerTrustEvaluation.swift */,
+				69386EDF4D854F03379ADD816E781216 /* Session.swift */,
+				A41D3AF490D8B712BF508025F5DE532B /* SessionDelegate.swift */,
+				0586559197A7094E3172A7AF5E12AE0F /* StringEncoding+Alamofire.swift */,
+				F3E3FAE385BA460755DCF618FDE94132 /* URLConvertible+URLRequestConvertible.swift */,
+				7B94676A33C5432DACE63181DE7CBE66 /* URLEncodedFormEncoder.swift */,
+				6FEB66445912E0F6C6BDE2D695A45583 /* URLRequest+Alamofire.swift */,
+				1DDD1A3986FC4CA2A944CD800C730D67 /* URLSessionConfiguration+Alamofire.swift */,
+				43F6B525617449EBAA4BF5101E48DBB7 /* Validation.swift */,
+				0075274E9D7817E7796F0C9B481BC7FB /* Support Files */,
+			);
+			name = Alamofire;
+			path = Alamofire;
+			sourceTree = "<group>";
+		};
+		C242390A6213C8CD06CB80DEB0F8F9CF /* MDFInternationalization */ = {
+			isa = PBXGroup;
+			children = (
+				4CB8F49EA4D914B09F453373EDF2909A /* MDFInternationalization.h */,
+				77D8A36EB652F5DDE291317B66042A0F /* MDFRTL.h */,
+				0A54AA345F7185CE2105657D45B2113A /* MDFRTL.m */,
+				52859BAA0FB0104F8C7BF95705A5554A /* NSLocale+MaterialRTL.h */,
+				ABA4447F2B0ED372FD255B9663F3D3FF /* NSLocale+MaterialRTL.m */,
+				6B0677062280007649D8EE43F9B9B76B /* NSString+MaterialBidi.h */,
+				B2F13E75F1AFC61E77BBA269CCFF1AEB /* NSString+MaterialBidi.m */,
+				37851FCDC620399BFEA5E81AC193AA3A /* UIImage+MaterialRTL.h */,
+				74451B09E90E37F39E9528740463832F /* UIImage+MaterialRTL.m */,
+				E54251AD9B7BD3D3A0288F65A92633F3 /* UIView+MaterialRTL.h */,
+				B7628121D69819D482AD443E3DD5B175 /* UIView+MaterialRTL.m */,
+				FA2EF52E950EC65D08E69D1DA5F755DE /* Support Files */,
+			);
+			name = MDFInternationalization;
+			path = MDFInternationalization;
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				1628BF05B4CAFDCC3549A101F5A10A17 /* Frameworks */,
+				0C824640B09E3E429E8D96493FAAF523 /* Pods */,
+				8BD99A08A5AA1C521E40E4841BED3233 /* Products */,
+				33ADF394CEBFCAE39383FBA806D59202 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		E4D7DFBCDC64148BAC61678B7FE41390 /* TextControlsPrivate+TextFields */ = {
+			isa = PBXGroup;
+			children = (
+				CA5650E603A9D62A4258D49D26466080 /* MaterialTextControlsPrivate+TextFields.h */,
+				B64E6C1441C2CFBB1298BE74A7148DB3 /* MDCBaseTextFieldLayout.h */,
+				C4250A7129FFF6667A377A26E7CDF83B /* MDCBaseTextFieldLayout.m */,
+				794439BFB2F24AC3552145C287315866 /* MDCTextControlTextField.h */,
+				42BDA9575572C94245840F7D928EB49F /* MDCTextControlTextFieldSideViewAlignment.h */,
+			);
+			name = "TextControlsPrivate+TextFields";
+			sourceTree = "<group>";
+		};
+		E7F49185A5EEDDB7279BDAAB386E7850 /* TextControls+BaseTextAreas */ = {
+			isa = PBXGroup;
+			children = (
+				F21301D90D80C35FD8687E712E87F13D /* MaterialTextControls+BaseTextAreas.h */,
+				748A5CE7058A27500CEA179CEB329EE5 /* MDCBaseTextArea.h */,
+				AFF2C5EB49C631E71B918876822BCCD0 /* MDCBaseTextArea.m */,
+				976EAEE1FEC6EB68DC6B15235688AFE2 /* MDCBaseTextAreaDelegate.h */,
+				EC7A206AAF18A96BB034BF5C25268DC7 /* MDCBaseTextAreaLayout.h */,
+				9017BF4B37CAF149E638E7CB6D20B293 /* MDCBaseTextAreaLayout.m */,
+				7B7C29A13FC4C5D630949853122C4208 /* MDCBaseTextAreaTextView.h */,
+				A5EDE8200D257568E6476F5E8FACCDB5 /* MDCBaseTextAreaTextView.m */,
+			);
+			name = "TextControls+BaseTextAreas";
+			sourceTree = "<group>";
+		};
+		ECCE27C132F7E1A974D9FDD12AEB26D7 /* private */ = {
+			isa = PBXGroup;
+			children = (
+				AEA8E72CCFD1C82C165AF930CA70AE1B /* Math */,
+				570F361BFB6E8150623E6422DB837324 /* TextControlsPrivate+BaseStyle */,
+				98A6B6CB68F77689DBA950358FD305ED /* TextControlsPrivate+FilledStyle */,
+				1CB81BAC0551565E823BC7809D5BD2F9 /* TextControlsPrivate+OutlinedStyle */,
+				F303657E1C2A3B200C535F1604E9269F /* TextControlsPrivate+Shared */,
+				E4D7DFBCDC64148BAC61678B7FE41390 /* TextControlsPrivate+TextFields */,
+				4762E71453433F401FA9BF541455BC25 /* TextControlsPrivate+UnderlinedStyle */,
+			);
+			name = private;
+			sourceTree = "<group>";
+		};
+		F13C1AC47BC8199902D33931C46869A7 /* AnimationTiming */ = {
+			isa = PBXGroup;
+			children = (
+				0FB8016EEB0C0F77CD8C226BE2000D28 /* CAMediaTimingFunction+MDCAnimationTiming.h */,
+				CCD822305B65E6261CF18D50B95DB12A /* CAMediaTimingFunction+MDCAnimationTiming.m */,
+				D74D968B5F2A73D65DE1A9AF8C80EA0C /* MaterialAnimationTiming.h */,
+				632705B9B9C369CA21AA729EAC4193AF /* UIView+MDCTimingFunction.h */,
+				4D19362B75E52430FA6F1C49A1AA8404 /* UIView+MDCTimingFunction.m */,
+			);
+			name = AnimationTiming;
+			sourceTree = "<group>";
+		};
+		F303657E1C2A3B200C535F1604E9269F /* TextControlsPrivate+Shared */ = {
+			isa = PBXGroup;
+			children = (
+				6002899F8995FF4C5E4CAB1DF503FC55 /* MaterialTextControlsPrivate+Shared.h */,
+				DDF9363F7521EAC913EDC2F5D9C447D4 /* MDCTextControl.h */,
+				DE6B1447BC110C72AB7272A05D780BED /* MDCTextControl.m */,
+				978DE4A03E8320B769330E26A6D38A86 /* MDCTextControlAssistiveLabelDrawPriority.h */,
+				ABDCF454CC67BE8FB1B00C4561F9EEF1 /* MDCTextControlAssistiveLabelView.h */,
+				6E34F20A71034E0A388648CDADB5E503 /* MDCTextControlAssistiveLabelView.m */,
+				E8A2C48F7A1E7CBE4A08215D78A0D52A /* MDCTextControlAssistiveLabelViewLayout.h */,
+				281A234282ED7ED5E6E4FAC4E45D0BA8 /* MDCTextControlAssistiveLabelViewLayout.m */,
+				8E4C938765C96937943FCC056FE098D0 /* MDCTextControlColorViewModel.h */,
+				71A99CC72CA945D5C3BE1B53826F8F9D /* MDCTextControlColorViewModel.m */,
+				F5234CD8807840852FEE686C502E4FCC /* MDCTextControlGradientManager.h */,
+				034CCE82AA2EB54A4AEFC144081F5429 /* MDCTextControlGradientManager.m */,
+				4626FF1E2249F26CAB9E7937BDFE78B8 /* MDCTextControlHorizontalPositioning.h */,
+				707823D27F3EA9259D14FEBB893F2651 /* MDCTextControlHorizontalPositioningReference.h */,
+				13F7C5B9E56D7F33067551F94F0042D5 /* MDCTextControlHorizontalPositioningReference.m */,
+				7A3EE3BD9B80CC98A4F6D01D9036CA73 /* MDCTextControlLabelAnimation.h */,
+				63F905C361389F05F0C9A98586866590 /* MDCTextControlLabelAnimation.m */,
+				503ADC53A6E4BB224A6C82B1AE723F1A /* MDCTextControlLabelSupport.h */,
+				A76762775D8B7E2483CDF4A9E5F4FC52 /* MDCTextControlLabelSupport.m */,
+				69E5805BD65DF790B85F7525E2C66FBD /* MDCTextControlPlaceholderSupport.h */,
+				D44DA021693E68E915329738BA745612 /* MDCTextControlPlaceholderSupport.m */,
+				CD8EF829CF56813DD265DD94F6C0DB50 /* MDCTextControlSideViewSupport.h */,
+				F8F6974A69FDB89DE065B894F77A328D /* MDCTextControlSideViewSupport.m */,
+				4F22C091B3BB14FFE7D19E4B888B1C9D /* MDCTextControlVerticalPositioningReference.h */,
+				4FFCB20CF5323434CF31D6DFED7D6563 /* MDCTextControlVerticalPositioningReference.m */,
+				02D4EBD4525E321D35503B31DBAE5DEE /* UIBezierPath+MDCTextControlStyle.h */,
+				606A86A96B8A778E91ED2C374DC70831 /* UIBezierPath+MDCTextControlStyle.m */,
+			);
+			name = "TextControlsPrivate+Shared";
+			sourceTree = "<group>";
+		};
+		F355097B07838291C68D98E6957B8958 /* Pods-KarooooSampleApp-KarooooSampleAppUITests */ = {
+			isa = PBXGroup;
+			children = (
+				5364B83CC71560D02A8234278E0228FC /* Pods-KarooooSampleApp-KarooooSampleAppUITests.modulemap */,
+				59280B2A93BB6D2C8608C19AF7A3572F /* Pods-KarooooSampleApp-KarooooSampleAppUITests-acknowledgements.markdown */,
+				506B3CD2FCCCCD813AC8A4EAEEBB3997 /* Pods-KarooooSampleApp-KarooooSampleAppUITests-acknowledgements.plist */,
+				A99D8D50349205247A916309AAFD1B6F /* Pods-KarooooSampleApp-KarooooSampleAppUITests-dummy.m */,
+				25BC204E1465428D975EB6C574F8B9E5 /* Pods-KarooooSampleApp-KarooooSampleAppUITests-frameworks.sh */,
+				2392949687980AF6DD6E5CD59AFFAE9F /* Pods-KarooooSampleApp-KarooooSampleAppUITests-Info.plist */,
+				7F59F8A4536CD8BDDB171E228AE1C7FC /* Pods-KarooooSampleApp-KarooooSampleAppUITests-umbrella.h */,
+				1A544ADBE666BCA96E676BF633EB3A30 /* Pods-KarooooSampleApp-KarooooSampleAppUITests.debug.xcconfig */,
+				6B590C559EC6F590EDD94DD941EDAC89 /* Pods-KarooooSampleApp-KarooooSampleAppUITests.release.xcconfig */,
+			);
+			name = "Pods-KarooooSampleApp-KarooooSampleAppUITests";
+			path = "Target Support Files/Pods-KarooooSampleApp-KarooooSampleAppUITests";
+			sourceTree = "<group>";
+		};
+		F4B94FCA23BC473F7442CFD35088572A /* TextControls+OutlinedTextAreas */ = {
+			isa = PBXGroup;
+			children = (
+				7FFBE5EE92BDCD4F144EE3B430F3131D /* MaterialTextControls+OutlinedTextAreas.h */,
+				27ACB4FA40ED00DCFE14AA496641860D /* MDCOutlinedTextArea.h */,
+				40F98F2B28012DB72AC3AF82E218A5B6 /* MDCOutlinedTextArea.m */,
+			);
+			name = "TextControls+OutlinedTextAreas";
+			sourceTree = "<group>";
+		};
+		F6A612712CF14FAA56D5C3CCC8177E52 /* Pods-KarooooSampleApp */ = {
+			isa = PBXGroup;
+			children = (
+				10E27414C08AFE16AB67C2BDF1779FD7 /* Pods-KarooooSampleApp.modulemap */,
+				D97687594D55D2BD05FB03F6D9ED85A1 /* Pods-KarooooSampleApp-acknowledgements.markdown */,
+				F76541E6ACB268340CD76F46C570D019 /* Pods-KarooooSampleApp-acknowledgements.plist */,
+				52E0F6655B90E3D1B1FA7BBF409A6054 /* Pods-KarooooSampleApp-dummy.m */,
+				AB1FB3B49043EF8384EBB4B0990860A0 /* Pods-KarooooSampleApp-frameworks.sh */,
+				5989D02B2D9CA759D6DE552F24897B7E /* Pods-KarooooSampleApp-Info.plist */,
+				856E6265FADF4C5468FE71A1C6434EDD /* Pods-KarooooSampleApp-umbrella.h */,
+				17448810B3C9F84A083546476D6C8416 /* Pods-KarooooSampleApp.debug.xcconfig */,
+				A582BB181DAB82106E33304338C1281D /* Pods-KarooooSampleApp.release.xcconfig */,
+			);
+			name = "Pods-KarooooSampleApp";
+			path = "Target Support Files/Pods-KarooooSampleApp";
+			sourceTree = "<group>";
+		};
+		F806DDB2E90EDF47197BC8D39D6D96AF /* TextControls+OutlinedTextFields */ = {
+			isa = PBXGroup;
+			children = (
+				800E5BA1C51A2662D16C1D45EBB20411 /* MaterialTextControls+OutlinedTextFields.h */,
+				B0215FE8920AB3215E9DAD518727B747 /* MDCOutlinedTextField.h */,
+				3855FB0FD094987ED6A952545248C98C /* MDCOutlinedTextField.m */,
+			);
+			name = "TextControls+OutlinedTextFields";
+			sourceTree = "<group>";
+		};
+		FA2EF52E950EC65D08E69D1DA5F755DE /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				05020DAEDD9A772326759F881D35445C /* MDFInternationalization.modulemap */,
+				DD5CEF40464FECB35707889BB2591131 /* MDFInternationalization-dummy.m */,
+				55645D8E36C17D725A5D3BCD0552257D /* MDFInternationalization-Info.plist */,
+				B269108C28AF0F32CD9AF93206FC97CA /* MDFInternationalization-prefix.pch */,
+				223BC46491D899B2F4287CCD2C2F24FD /* MDFInternationalization-umbrella.h */,
+				3C6D02B825D8B0E90CDD48CAAFBE8BA9 /* MDFInternationalization.debug.xcconfig */,
+				70F37708D1AB24C93D2C3F33CEE689CB /* MDFInternationalization.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/MDFInternationalization";
+			sourceTree = "<group>";
+		};
+		FD2872FCDC96DEA9138950BCDF3D33D9 /* TextControls+FilledTextFields */ = {
+			isa = PBXGroup;
+			children = (
+				4630AAD5016D061CE7F25AFAB43555F2 /* MaterialTextControls+FilledTextFields.h */,
+				B33702B9D523CD67B42966F65C4DBA53 /* MDCFilledTextField.h */,
+				4D8C2453BF352485A8543C3E501EA505 /* MDCFilledTextField.m */,
+			);
+			name = "TextControls+FilledTextFields";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		30F33325730CBF2536DFCB23CE9961DE /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0C49EE8618C2CCA090EEE8E383BF5CFA /* Pods-KarooooSampleApp-KarooooSampleAppUITests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		31428DF5750375AAD719F5B86C72F2BE /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A01FAF5090124D9DC52B12745E5A528A /* CAMediaTimingFunction+MDCAnimationTiming.h in Headers */,
+				8AD7A05E64DD589382EE6D43F6C203BB /* MaterialAnimationTiming.h in Headers */,
+				AFBF733F0E307E39BC49337E3A2FF1E6 /* MaterialAvailability.h in Headers */,
+				12B032A37293C0520B963FC0A1A2B32C /* MaterialComponents-umbrella.h in Headers */,
+				E98C2367959D7509177CBE876C739965 /* MaterialMath.h in Headers */,
+				A849860C5F254160FC53D8E7188047E8 /* MaterialTextControls+BaseTextAreas.h in Headers */,
+				4F25441140C67D1CDA646B1DB0772CF3 /* MaterialTextControls+BaseTextFields.h in Headers */,
+				C831D426128BDB02E4AD3D76666F69EC /* MaterialTextControls+Enums.h in Headers */,
+				4AEF106BFB28503CA7C014D8E4FB8898 /* MaterialTextControls+FilledTextAreas.h in Headers */,
+				F05D2ECE8BC8B4903DF6EFB32782A358 /* MaterialTextControls+FilledTextFields.h in Headers */,
+				A96B9F83B70BF091C994F186C27BCC23 /* MaterialTextControls+OutlinedTextAreas.h in Headers */,
+				CB99BF1A0C8E3B2297CE9BE552698539 /* MaterialTextControls+OutlinedTextFields.h in Headers */,
+				80C16CE50BBC5219B2A412DFB6A04B9A /* MaterialTextControlsPrivate+BaseStyle.h in Headers */,
+				62EF3C9F2794CDB16FB26B816210AF9F /* MaterialTextControlsPrivate+FilledStyle.h in Headers */,
+				EA8000C7DEDD240441F1F1E335854BB2 /* MaterialTextControlsPrivate+OutlinedStyle.h in Headers */,
+				FE30CB088C8D715E3C75B35EB065001C /* MaterialTextControlsPrivate+Shared.h in Headers */,
+				405E0314BBA01011B9A49D5CFE9F67D9 /* MaterialTextControlsPrivate+TextFields.h in Headers */,
+				E5C3E05C0EE6DA6883134A0E682B8EF1 /* MaterialTextControlsPrivate+UnderlinedStyle.h in Headers */,
+				551209FDC6B570118F89380CFC81CC53 /* MDCAvailability.h in Headers */,
+				CECCA4649316B6CC139383061401DCF5 /* MDCBaseTextArea.h in Headers */,
+				560CF187B29A0ABBA54FD59E13F131AA /* MDCBaseTextAreaDelegate.h in Headers */,
+				9EC7585B5DE3E41D4EAB7754AD889DC3 /* MDCBaseTextAreaLayout.h in Headers */,
+				A3D66682878A5131BCFB72A8EB0E47CE /* MDCBaseTextAreaTextView.h in Headers */,
+				BECCD91C3500DDC5274C08B7707F518A /* MDCBaseTextField.h in Headers */,
+				7E4E65080A19DB8FC6F110A0378517E7 /* MDCBaseTextFieldDelegate.h in Headers */,
+				9CB2E884712123B426747103E4B61FA1 /* MDCBaseTextFieldLayout.h in Headers */,
+				BAB5744AC75E06CB319846484DD29A90 /* MDCFilledTextArea.h in Headers */,
+				56CE1F81921448A64249E6FEE166B248 /* MDCFilledTextField.h in Headers */,
+				B98BF4775D559CA1B5E2A4A2606CC9B3 /* MDCMath.h in Headers */,
+				82937FB337DCF47D2C9E35DFA7B5D24C /* MDCOutlinedTextArea.h in Headers */,
+				A89AE527A000BD2164070082DFD0EDA1 /* MDCOutlinedTextField.h in Headers */,
+				F445E34F759A59D0454F7FAA4C39C0B8 /* MDCTextControl.h in Headers */,
+				2C8DEBF5DF71615E42933C9B9B3D7143 /* MDCTextControlAssistiveLabelDrawPriority.h in Headers */,
+				32E0DDD45AFC662B79B819CCE50FB0F0 /* MDCTextControlAssistiveLabelView.h in Headers */,
+				9179BE72DBE801B47C6938115EC493CB /* MDCTextControlAssistiveLabelViewLayout.h in Headers */,
+				0CABC2638472D3DE53BC7F92612122E5 /* MDCTextControlColorViewModel.h in Headers */,
+				15B1A1C32C8028DFD17710A44C15F2E8 /* MDCTextControlGradientManager.h in Headers */,
+				B5FBED62C4990231D8738CC0B03D17A0 /* MDCTextControlHorizontalPositioning.h in Headers */,
+				B73138292FFD7EA8327D834B61026A54 /* MDCTextControlHorizontalPositioningReference.h in Headers */,
+				23AC06556CD25C4B62BF41BB2F54AD2E /* MDCTextControlLabelAnimation.h in Headers */,
+				53626279701D93866AA6E1953AC9A443 /* MDCTextControlLabelBehavior.h in Headers */,
+				E7D793D0F007B0667E527A19DBE6A76B /* MDCTextControlLabelSupport.h in Headers */,
+				8857547CE9422C72C0F2CB70980FA5E3 /* MDCTextControlPlaceholderSupport.h in Headers */,
+				BBB57DC0BA0089EE6AB89F6DF06637AF /* MDCTextControlSideViewSupport.h in Headers */,
+				072DEF48E55F91F4B4A3EA62FAB80D2D /* MDCTextControlState.h in Headers */,
+				FBB6150C6578BC4D0DB9324EBF4E82D6 /* MDCTextControlStyleBase.h in Headers */,
+				D32A6120E0C87193CAC64B98418C0F25 /* MDCTextControlStyleFilled.h in Headers */,
+				E393F114C2F4A6FFE76DF407AAFCF72E /* MDCTextControlStyleOutlined.h in Headers */,
+				42325916E3EEFE4773DFB7BCC533944D /* MDCTextControlStyleUnderlined.h in Headers */,
+				DBB0A707DC4E92A72EF01CFAB8F3459F /* MDCTextControlTextField.h in Headers */,
+				2548B16B2B0F69922C2B87EC1FF22CC5 /* MDCTextControlTextFieldSideViewAlignment.h in Headers */,
+				341C48BB7DF44AE0395A0AA48C805536 /* MDCTextControlVerticalPositioningReference.h in Headers */,
+				2F03407BC545C9A7DBFF712BC43D079D /* MDCTextControlVerticalPositioningReferenceBase.h in Headers */,
+				93D7BEDB5191A074BFD17A6C27D1D57E /* MDCTextControlVerticalPositioningReferenceFilled.h in Headers */,
+				F7C059BA8B1524F4F8B58B94EF14E9FD /* MDCTextControlVerticalPositioningReferenceOutlined.h in Headers */,
+				40C1FC4AAE66027394D96C17488A3315 /* MDCTextControlVerticalPositioningReferenceUnderlined.h in Headers */,
+				3E80840DE673EA7ED8065D4AEAFA85C6 /* UIBezierPath+MDCTextControlStyle.h in Headers */,
+				6B6CBD24D816600F27C613609E0E67AE /* UIView+MDCTimingFunction.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3CC4B85B26FB2562D4A5F8627555C723 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E8577753653525EC3135B744C89BCFE2 /* Pods-KarooooSampleAppTests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		52E6F7B26483BE3BC9393C6C05D32424 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				005B319B494ED2DAA239B9939A504DFC /* Alamofire-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		82946A5BB19511200C787055222CC155 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1062EDD2C5C3B8D7A91592F639600D74 /* MDFInternationalization.h in Headers */,
+				1DCF9A800AE274F89C29078A6E212B7D /* MDFInternationalization-umbrella.h in Headers */,
+				68C81A493C4CD3F1D8425C3C12B6F1E3 /* MDFRTL.h in Headers */,
+				3CE30BDD410305F4D3C8C13D12507A4A /* NSLocale+MaterialRTL.h in Headers */,
+				9F64E84B54A721D525FB5FEB6B04AD92 /* NSString+MaterialBidi.h in Headers */,
+				F95134B340BDE8537CEDC91162AE776B /* UIImage+MaterialRTL.h in Headers */,
+				E56C430EEEEAF6E39FF0942CCD78A061 /* UIView+MaterialRTL.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		97CE91431E229797751455423C79CA4F /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E0A8C46EEE733B55971B1CC5ED65C9AA /* DropDown-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C007659CEFD4418AE9B47AFD1AD128BB /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				356299E39252C599C641EA6B4F488703 /* Pods-KarooooSampleApp-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		55A01F8E987A6E2F7F0ED141A1ECA406 /* MDFInternationalization */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 29235CC975477CF0AE111D8533A857C9 /* Build configuration list for PBXNativeTarget "MDFInternationalization" */;
+			buildPhases = (
+				82946A5BB19511200C787055222CC155 /* Headers */,
+				85B3B64C90CFC972449F93DC4A812BBD /* Copy . Public Headers */,
+				75C42EE808FFAC35041568CFE92847AD /* Sources */,
+				A563BE445A159E73000F25A2BC3B940E /* Frameworks */,
+				AED6EDF087DBE63D55C51AEE20F3373F /* Resources */,
+				498506168756522E454E1B48EC2886A7 /* Create Symlinks to Header Folders */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MDFInternationalization;
+			productName = MDFInternationalization;
+			productReference = 9A2AC0B8BAC6EF061EBC28825653DF99 /* MDFInternationalization */;
+			productType = "com.apple.product-type.framework";
+		};
+		6452604D6AA2D2BE90C52F537C81C4E2 /* Pods-KarooooSampleApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FF9F4110335E910C736DFA714DB8EF9A /* Build configuration list for PBXNativeTarget "Pods-KarooooSampleApp" */;
+			buildPhases = (
+				C007659CEFD4418AE9B47AFD1AD128BB /* Headers */,
+				08936F2CD0D94E3006903CAA2D0E6102 /* Sources */,
+				56BC9D00CFB3961FE2C8BB7F65F2B3E7 /* Frameworks */,
+				0A7787B5F05F72975675CEB9C25363EC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D1C8833388ECB281C8DF13834D529ADF /* PBXTargetDependency */,
+				004BFE9F21AA623124EFCE37F2AA97C5 /* PBXTargetDependency */,
+				513E08709AF65AC300B213F3C3CE9B94 /* PBXTargetDependency */,
+				0BEA462E84B3E60E8A94BD08D965156B /* PBXTargetDependency */,
+			);
+			name = "Pods-KarooooSampleApp";
+			productName = Pods_KarooooSampleApp;
+			productReference = 8398671A3FD54F02D2D1D4C552C01F83 /* Pods-KarooooSampleApp */;
+			productType = "com.apple.product-type.framework";
+		};
+		7DA37A76300C6B31F5C2E1DF333C83AC /* Pods-KarooooSampleAppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2515B1F000E3189165EE2EBF2A3D2CC4 /* Build configuration list for PBXNativeTarget "Pods-KarooooSampleAppTests" */;
+			buildPhases = (
+				3CC4B85B26FB2562D4A5F8627555C723 /* Headers */,
+				8A4663EDD4A7B0B0A7C79C0C7FAA986A /* Sources */,
+				1825DE1C59FFDF085F7FE06E9DCFDD65 /* Frameworks */,
+				8DFE0CDC7233BD062C67221D6C965126 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9021F1FC21F3BC951807A477B5B38E3A /* PBXTargetDependency */,
+			);
+			name = "Pods-KarooooSampleAppTests";
+			productName = Pods_KarooooSampleAppTests;
+			productReference = BD24115C26DF17E819D45344BFFEF3FD /* Pods-KarooooSampleAppTests */;
+			productType = "com.apple.product-type.framework";
+		};
+		B4723B5744013DF08BE3A5FEAA286944 /* MaterialComponents */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 726D5927959030BE8EFACAECD8601B02 /* Build configuration list for PBXNativeTarget "MaterialComponents" */;
+			buildPhases = (
+				31428DF5750375AAD719F5B86C72F2BE /* Headers */,
+				9F9D26050D5451A2658DBF7234AC32A8 /* Sources */,
+				11551701590D64A97F801BD35F314A19 /* Frameworks */,
+				8F5D2ECF9390FA75D73A1680215C0A16 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7B007EDEBE000A49BD8E4F3C329DEA7B /* PBXTargetDependency */,
+			);
+			name = MaterialComponents;
+			productName = MaterialComponents;
+			productReference = A34157B3708EDB7D17422B3D92F591D2 /* MaterialComponents */;
+			productType = "com.apple.product-type.framework";
+		};
+		E6A8F7F3C08AD8AA69EE04E7CDD8ECB4 /* Pods-KarooooSampleApp-KarooooSampleAppUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A63DF6417E335BC4C7AD621A7DBEF3D0 /* Build configuration list for PBXNativeTarget "Pods-KarooooSampleApp-KarooooSampleAppUITests" */;
+			buildPhases = (
+				30F33325730CBF2536DFCB23CE9961DE /* Headers */,
+				62B2F338319BEFB950D04064321A7958 /* Sources */,
+				291FEDACD40BDCC391AE0B0E020649AF /* Frameworks */,
+				C96E14EE35BBE803B9742B9EFEE09276 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				05EE3011A446BC9CD7247757B0A1E471 /* PBXTargetDependency */,
+				52FDCCA317E5AD026C9FB1E5D1801D3D /* PBXTargetDependency */,
+				94D58125B56458D41DC1DAA581D3DF0E /* PBXTargetDependency */,
+				07CFC2344F46A3E71E272BE2C5640BF8 /* PBXTargetDependency */,
+			);
+			name = "Pods-KarooooSampleApp-KarooooSampleAppUITests";
+			productName = Pods_KarooooSampleApp_KarooooSampleAppUITests;
+			productReference = 5AF504C4E4B6F58D87CAC327A5EAC9C5 /* Pods-KarooooSampleApp-KarooooSampleAppUITests */;
+			productType = "com.apple.product-type.framework";
+		};
+		E9F9401E9C74C0C393164FD8D86D0068 /* DropDown */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 53052E6CBA1E65D6EF818199E617AC68 /* Build configuration list for PBXNativeTarget "DropDown" */;
+			buildPhases = (
+				97CE91431E229797751455423C79CA4F /* Headers */,
+				48864C435B3DB37698CF568C638CF98F /* Sources */,
+				808BE4E171BD75B6477EC2B77490C2B1 /* Frameworks */,
+				EFDE5B37A62BFF2F9A9BD2023B960CD7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DropDown;
+			productName = DropDown;
+			productReference = 9B6725B782188F18CB76A740433F14E4 /* DropDown */;
+			productType = "com.apple.product-type.framework";
+		};
+		EAAA1AD3A8A1B59AB91319EE40752C6D /* Alamofire */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8A212264186B8822192F9C369D7DE4BB /* Build configuration list for PBXNativeTarget "Alamofire" */;
+			buildPhases = (
+				52E6F7B26483BE3BC9393C6C05D32424 /* Headers */,
+				F5D2A45FBA06D86A537CB441D5BF4FF4 /* Sources */,
+				15DC142A7EE833251AA37FC8E2B8E01F /* Frameworks */,
+				E9D4145FA41F60FFAB33A07796D9ED97 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Alamofire;
+			productName = Alamofire;
+			productReference = 5D797E9A5C5782CE845840781FA1CC81 /* Alamofire */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1300;
+				LastUpgradeCheck = 1300;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				Base,
+				en,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = 8BD99A08A5AA1C521E40E4841BED3233 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EAAA1AD3A8A1B59AB91319EE40752C6D /* Alamofire */,
+				E9F9401E9C74C0C393164FD8D86D0068 /* DropDown */,
+				B4723B5744013DF08BE3A5FEAA286944 /* MaterialComponents */,
+				55A01F8E987A6E2F7F0ED141A1ECA406 /* MDFInternationalization */,
+				6452604D6AA2D2BE90C52F537C81C4E2 /* Pods-KarooooSampleApp */,
+				E6A8F7F3C08AD8AA69EE04E7CDD8ECB4 /* Pods-KarooooSampleApp-KarooooSampleAppUITests */,
+				7DA37A76300C6B31F5C2E1DF333C83AC /* Pods-KarooooSampleAppTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		0A7787B5F05F72975675CEB9C25363EC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8DFE0CDC7233BD062C67221D6C965126 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8F5D2ECF9390FA75D73A1680215C0A16 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AED6EDF087DBE63D55C51AEE20F3373F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C96E14EE35BBE803B9742B9EFEE09276 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E9D4145FA41F60FFAB33A07796D9ED97 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EFDE5B37A62BFF2F9A9BD2023B960CD7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				68E1653C561E14BBEAC9CF4873570D58 /* DropDownCell.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		498506168756522E454E1B48EC2886A7 /* Create Symlinks to Header Folders */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			name = "Create Symlinks to Header Folders";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "cd \"$CONFIGURATION_BUILD_DIR/$WRAPPER_NAME\" || exit 1\nif [ ! -d Versions ]; then\n  # Not a versioned framework, so no need to do anything\n  exit 0\nfi\n\npublic_path=\"${PUBLIC_HEADERS_FOLDER_PATH#$CONTENTS_FOLDER_PATH/}\"\nif [ ! -f \"$public_path\" ]; then\n  ln -fs \"${PUBLIC_HEADERS_FOLDER_PATH#$WRAPPER_NAME/}\" \"$public_path\"\nfi\n\nprivate_path=\"${PRIVATE_HEADERS_FOLDER_PATH#$CONTENTS_FOLDER_PATH/}\"\nif [ ! -f \"$private_path\" ]; then\n  ln -fs \"${PRIVATE_HEADERS_FOLDER_PATH#$WRAPPER_NAME/}\" \"$private_path\"\nfi\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		08936F2CD0D94E3006903CAA2D0E6102 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C64F93C1BC2BA54DDB0BDD8A2CBEACF3 /* Pods-KarooooSampleApp-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		48864C435B3DB37698CF568C638CF98F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				74012B832FAF67F8D62A2B27CDAFE8B5 /* DPDConstants.swift in Sources */,
+				89A72A55273CE358DC4E7600F785C37B /* DPDKeyboardListener.swift in Sources */,
+				B73E510E851686F8184E26986A470458 /* DPDUIView+Extension.swift in Sources */,
+				84459C4824533C9C4FD12AFC941F3CE1 /* DropDown.swift in Sources */,
+				515E22E4255B6073C1897BDDB091A2B8 /* DropDown+Appearance.swift in Sources */,
+				907338727C09F65DB75AA7AB9E10C3B4 /* DropDown-dummy.m in Sources */,
+				BDC10974A8641F01C5665C61EA37A153 /* DropDownCell.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		62B2F338319BEFB950D04064321A7958 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				324D4CEFA1485487D2131A3AE7F79F60 /* Pods-KarooooSampleApp-KarooooSampleAppUITests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		75C42EE808FFAC35041568CFE92847AD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				25ABCCB506CD51393434BE44F446AD5F /* MDFInternationalization-dummy.m in Sources */,
+				BF7F9976FA80C821BC13E58E30E94B5B /* MDFRTL.m in Sources */,
+				8C050C985EF60CCC3B9E25050BE20F3E /* NSLocale+MaterialRTL.m in Sources */,
+				124EEAE22B8077371D55FDB1AC4F4D30 /* NSString+MaterialBidi.m in Sources */,
+				03219B99BEEC9AB447188784DFDF4E19 /* UIImage+MaterialRTL.m in Sources */,
+				984167BC563C943B94B43A01DECBEAB0 /* UIView+MaterialRTL.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8A4663EDD4A7B0B0A7C79C0C7FAA986A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B99E98A445397DF43BE13BB5A37BE2A0 /* Pods-KarooooSampleAppTests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9F9D26050D5451A2658DBF7234AC32A8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D71E02822A526707C95148E07A9826A0 /* CAMediaTimingFunction+MDCAnimationTiming.m in Sources */,
+				EF8C6345E9E04BCDB402126AF3873AFD /* MaterialComponents-dummy.m in Sources */,
+				AD3AE92A97530191A5FECA3848318677 /* MaterialMathDummy.m in Sources */,
+				835B1901766965F29B8AFA32C512E72F /* MDCBaseTextArea.m in Sources */,
+				85838B6ED261E828CBEC9797EFCAB831 /* MDCBaseTextAreaLayout.m in Sources */,
+				A8D39E9F609FAA982AD85580021DCC81 /* MDCBaseTextAreaTextView.m in Sources */,
+				985BAA560AF3619F5B8566946101AB82 /* MDCBaseTextField.m in Sources */,
+				57B87EDFFA3D8E03625F611BC22914FC /* MDCBaseTextFieldLayout.m in Sources */,
+				0228109C37B0228AED9F5DCF3F45C063 /* MDCFilledTextArea.m in Sources */,
+				4DEE99EC8F255916DABF6363F56DFEB6 /* MDCFilledTextField.m in Sources */,
+				48518D2E3050A7C8973AA35FB75D276F /* MDCOutlinedTextArea.m in Sources */,
+				733F0F22602903D3427FD3B00EAC1AA4 /* MDCOutlinedTextField.m in Sources */,
+				04B50B00F32791E7A9F96715F7AAFB13 /* MDCTextControl.m in Sources */,
+				253084827ED3434F9212A11BD87760DE /* MDCTextControlAssistiveLabelView.m in Sources */,
+				05FD4EFFD2FD95AEF332F8A2A2468304 /* MDCTextControlAssistiveLabelViewLayout.m in Sources */,
+				CF5396A0FE1AA7DDBD5F92C9F10BE7E2 /* MDCTextControlColorViewModel.m in Sources */,
+				007C5C97DBDC5993474CE56C2F579E14 /* MDCTextControlGradientManager.m in Sources */,
+				6771A29FD2E1DE5BDE97E242A3C5B60F /* MDCTextControlHorizontalPositioningReference.m in Sources */,
+				2C2ADE31160D3E8DB654FC76B87BE180 /* MDCTextControlLabelAnimation.m in Sources */,
+				9852446F7CF9154050DA51F75D401B7B /* MDCTextControlLabelSupport.m in Sources */,
+				11296E523965D9EC9F3C3F761A1F0EBE /* MDCTextControlPlaceholderSupport.m in Sources */,
+				B98FF58F1DBCF0EE72B15E44F6FB6B2A /* MDCTextControlSideViewSupport.m in Sources */,
+				61E7985A1B3CA128703657A0FAF48C33 /* MDCTextControlState.m in Sources */,
+				5AC4580D8A232C0CEE1D6553C00B3D83 /* MDCTextControlStyleBase.m in Sources */,
+				CB2F277B87C7D6A71DD91D7659AC1B0B /* MDCTextControlStyleFilled.m in Sources */,
+				DBB9202542CFA7046C5CFD74C9900B7A /* MDCTextControlStyleOutlined.m in Sources */,
+				E27BAE864D9D70C6D06CA4E28FD54010 /* MDCTextControlStyleUnderlined.m in Sources */,
+				34923FB60759B3E9955FA72D21870179 /* MDCTextControlVerticalPositioningReference.m in Sources */,
+				8BC28C0EA2C4B3BFC780F507C2669CB9 /* MDCTextControlVerticalPositioningReferenceBase.m in Sources */,
+				6C0637B5DB7A7BDD270B9BFF7BCA444F /* MDCTextControlVerticalPositioningReferenceFilled.m in Sources */,
+				0B217BD4EF873E6392E3E05A79A5A35F /* MDCTextControlVerticalPositioningReferenceOutlined.m in Sources */,
+				FE496327196BC7BB8B1798101116119A /* MDCTextControlVerticalPositioningReferenceUnderlined.m in Sources */,
+				DF60CBDDCEDCF6C28A6FCA64BCAC6B6D /* UIBezierPath+MDCTextControlStyle.m in Sources */,
+				3F2E51186E01B77851DDE955FD336CF8 /* UIView+MDCTimingFunction.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F5D2A45FBA06D86A537CB441D5BF4FF4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D0EA90FBF83350C49E6EF6C8A98D6F00 /* AFError.swift in Sources */,
+				F17A4CA4664CABB331D39FE902E06843 /* Alamofire.swift in Sources */,
+				55AABB1FB38F61A3369ACC555FF3046D /* Alamofire-dummy.m in Sources */,
+				1EE44196E7BCE57AD96A2C751651EF40 /* AlamofireExtended.swift in Sources */,
+				7483E5327027263F7E4B94A2997191C4 /* AuthenticationInterceptor.swift in Sources */,
+				2CBE3651CA006E19F5D64A2DE9B9A028 /* CachedResponseHandler.swift in Sources */,
+				46A64A43AFA057B6B63C8F0C12F509B4 /* Combine.swift in Sources */,
+				9C9030DEDB0DF955B16FE08C50892D57 /* Concurrency.swift in Sources */,
+				EEC150B66BCCD6C80FDA7E4D1975166B /* DispatchQueue+Alamofire.swift in Sources */,
+				CEBFFEED65D877702B2F36102528CF6D /* EventMonitor.swift in Sources */,
+				7E02F5B62BE00E97847DF549FFED2490 /* HTTPHeaders.swift in Sources */,
+				D6B4751CED01D53E4A1B6A571AAA2F83 /* HTTPMethod.swift in Sources */,
+				7FE695DA8EE7FF1286556E06B692009B /* MultipartFormData.swift in Sources */,
+				E9B4C89E7EB3B27D46AFCA452C3D426F /* MultipartUpload.swift in Sources */,
+				A29100AA1876DDEFF6F54694A51FDB0E /* NetworkReachabilityManager.swift in Sources */,
+				2CCD13099063CD560E3067BD132914FA /* Notifications.swift in Sources */,
+				E54654D504A42C24F284A68F87F7671D /* OperationQueue+Alamofire.swift in Sources */,
+				99D058E53EFEE3AC4857CDE3DBA5C004 /* ParameterEncoder.swift in Sources */,
+				68FB2DCB4C77DBCAF9A6037E470F2BDE /* ParameterEncoding.swift in Sources */,
+				A53BDE589BDD6483F3EEDCE5EA1DCCD3 /* Protected.swift in Sources */,
+				045DE6EBF9B2F63F60F5BE60C1198E06 /* RedirectHandler.swift in Sources */,
+				B3658C29BBDE1033F6269A92E612CB30 /* Request.swift in Sources */,
+				DD902FE8D6824681C929D028655AE121 /* RequestInterceptor.swift in Sources */,
+				DA34899BEF0668D76CBCE8C4CE47B97B /* RequestTaskMap.swift in Sources */,
+				75966A9262648D4647D764E3E76BC6AC /* Response.swift in Sources */,
+				824D816B1EE404F2DD400EE678695CBE /* ResponseSerialization.swift in Sources */,
+				04A896288CE3A59B530250337A5F8362 /* Result+Alamofire.swift in Sources */,
+				33A7D0F2D03004CE256A75E03DF33C70 /* RetryPolicy.swift in Sources */,
+				B704B198B9B520D449260877E300D821 /* ServerTrustEvaluation.swift in Sources */,
+				81B8D2B7CEB25C2448B0BC9B33591A65 /* Session.swift in Sources */,
+				1976BB7D7E26A12E29283E71154B63B3 /* SessionDelegate.swift in Sources */,
+				7F1BB526AAE3ECDCE90127D9D0E10261 /* StringEncoding+Alamofire.swift in Sources */,
+				8D75FC8D7476C9674234F39F1A820D8C /* URLConvertible+URLRequestConvertible.swift in Sources */,
+				7930C94414B4C661867AC4FBE82E996C /* URLEncodedFormEncoder.swift in Sources */,
+				BC0ECA8F22DEDE8886E189CD0EAA1197 /* URLRequest+Alamofire.swift in Sources */,
+				808C960C82D708FC1A42C581D6CB4940 /* URLSessionConfiguration+Alamofire.swift in Sources */,
+				3C4059621E23842C19D4EB5D35B41989 /* Validation.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		004BFE9F21AA623124EFCE37F2AA97C5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = DropDown;
+			target = E9F9401E9C74C0C393164FD8D86D0068 /* DropDown */;
+			targetProxy = 5EEE32DD91C15515475DC11C9D7B002A /* PBXContainerItemProxy */;
+		};
+		05EE3011A446BC9CD7247757B0A1E471 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = Alamofire;
+			target = EAAA1AD3A8A1B59AB91319EE40752C6D /* Alamofire */;
+			targetProxy = 633485AC7CD5AAB606A790D005F72F42 /* PBXContainerItemProxy */;
+		};
+		07CFC2344F46A3E71E272BE2C5640BF8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = MaterialComponents;
+			target = B4723B5744013DF08BE3A5FEAA286944 /* MaterialComponents */;
+			targetProxy = E792783BE066D114CE18411D48F8396A /* PBXContainerItemProxy */;
+		};
+		0BEA462E84B3E60E8A94BD08D965156B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = MaterialComponents;
+			target = B4723B5744013DF08BE3A5FEAA286944 /* MaterialComponents */;
+			targetProxy = CD09E11783D424F20D7F5C5DE02B735B /* PBXContainerItemProxy */;
+		};
+		513E08709AF65AC300B213F3C3CE9B94 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = MDFInternationalization;
+			target = 55A01F8E987A6E2F7F0ED141A1ECA406 /* MDFInternationalization */;
+			targetProxy = F46A244FC8E4F59F1BD39F88CB1FEB71 /* PBXContainerItemProxy */;
+		};
+		52FDCCA317E5AD026C9FB1E5D1801D3D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = DropDown;
+			target = E9F9401E9C74C0C393164FD8D86D0068 /* DropDown */;
+			targetProxy = 19A83DC5F96140E43246037BE0A75F5E /* PBXContainerItemProxy */;
+		};
+		7B007EDEBE000A49BD8E4F3C329DEA7B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = MDFInternationalization;
+			target = 55A01F8E987A6E2F7F0ED141A1ECA406 /* MDFInternationalization */;
+			targetProxy = 9F7F7385EAA4C6F0E4A3A44AAD10551C /* PBXContainerItemProxy */;
+		};
+		9021F1FC21F3BC951807A477B5B38E3A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-KarooooSampleApp";
+			target = 6452604D6AA2D2BE90C52F537C81C4E2 /* Pods-KarooooSampleApp */;
+			targetProxy = 575AD3D2B69AC16B00AC169AD52EA9FC /* PBXContainerItemProxy */;
+		};
+		94D58125B56458D41DC1DAA581D3DF0E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = MDFInternationalization;
+			target = 55A01F8E987A6E2F7F0ED141A1ECA406 /* MDFInternationalization */;
+			targetProxy = B1ADA4CD105003C7DA202D269FBB9859 /* PBXContainerItemProxy */;
+		};
+		D1C8833388ECB281C8DF13834D529ADF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = Alamofire;
+			target = EAAA1AD3A8A1B59AB91319EE40752C6D /* Alamofire */;
+			targetProxy = 3B2426C61E90A3CD6EDBB65680F034DD /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		00AC7E986190943485FF3F917F0F849C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1A544ADBE666BCA96E676BF633EB3A30 /* Pods-KarooooSampleApp-KarooooSampleAppUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-KarooooSampleApp-KarooooSampleAppUITests/Pods-KarooooSampleApp-KarooooSampleAppUITests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-KarooooSampleApp-KarooooSampleAppUITests/Pods-KarooooSampleApp-KarooooSampleAppUITests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		08049B775DDF1825DEA13075C1243981 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A582BB181DAB82106E33304338C1281D /* Pods-KarooooSampleApp.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-KarooooSampleApp/Pods-KarooooSampleApp-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-KarooooSampleApp/Pods-KarooooSampleApp.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		082649ABF65D30C0B8732BDDADE9DC4C /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 70F37708D1AB24C93D2C3F33CEE689CB /* MDFInternationalization.release.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/MDFInternationalization/MDFInternationalization-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/MDFInternationalization/MDFInternationalization-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/MDFInternationalization/MDFInternationalization.modulemap";
+				PRODUCT_MODULE_NAME = MDFInternationalization;
+				PRODUCT_NAME = MDFInternationalization;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		2B6CB48CD65FD42BB98EE03BCFEC893D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0FF4DF40471DE8C0ACFA8150F4853E53 /* Pods-KarooooSampleAppTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-KarooooSampleAppTests/Pods-KarooooSampleAppTests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-KarooooSampleAppTests/Pods-KarooooSampleAppTests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		45285987FDC204B9DB7C0228892D4B3E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		4EA1C47EA1053331DBCA33FF4B9D3A0D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3C6D02B825D8B0E90CDD48CAAFBE8BA9 /* MDFInternationalization.debug.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/MDFInternationalization/MDFInternationalization-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/MDFInternationalization/MDFInternationalization-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/MDFInternationalization/MDFInternationalization.modulemap";
+				PRODUCT_MODULE_NAME = MDFInternationalization;
+				PRODUCT_NAME = MDFInternationalization;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		5201877E9FB1E6ABDB04DE69707DBCA4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6B590C559EC6F590EDD94DD941EDAC89 /* Pods-KarooooSampleApp-KarooooSampleAppUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-KarooooSampleApp-KarooooSampleAppUITests/Pods-KarooooSampleApp-KarooooSampleAppUITests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-KarooooSampleApp-KarooooSampleAppUITests/Pods-KarooooSampleApp-KarooooSampleAppUITests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		671032F4707913799AAE590718C7F6DB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 17448810B3C9F84A083546476D6C8416 /* Pods-KarooooSampleApp.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-KarooooSampleApp/Pods-KarooooSampleApp-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-KarooooSampleApp/Pods-KarooooSampleApp.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		6AF9D8D0B4F4FA4695A8EEF773CD3FBC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		760ED325CEFD3831AA9BA0BE9196EE2E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D63E70CAF8F594B5A2AA3059C223641D /* MaterialComponents.debug.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/MaterialComponents/MaterialComponents-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/MaterialComponents/MaterialComponents-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/MaterialComponents/MaterialComponents.modulemap";
+				PRODUCT_MODULE_NAME = MaterialComponents;
+				PRODUCT_NAME = MaterialComponents;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		78D47196ABC89DCE592E29AAF67CE54B /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6D651DB493F778F787D3F059A8FD3BC6 /* MaterialComponents.release.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/MaterialComponents/MaterialComponents-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/MaterialComponents/MaterialComponents-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/MaterialComponents/MaterialComponents.modulemap";
+				PRODUCT_MODULE_NAME = MaterialComponents;
+				PRODUCT_NAME = MaterialComponents;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		880219FBBFBA4B703A46B5F770D59ADF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CFCBB47E0053DD37495578E4D0825113 /* Alamofire.debug.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/Alamofire/Alamofire-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Alamofire/Alamofire-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/Alamofire/Alamofire.modulemap";
+				PRODUCT_MODULE_NAME = Alamofire;
+				PRODUCT_NAME = Alamofire;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		C24518E891FAA59668669823639498EB /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1DE85F4F7F1C45B44A9C0AB1F1191239 /* DropDown.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/DropDown/DropDown-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/DropDown/DropDown-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/DropDown/DropDown.modulemap";
+				PRODUCT_MODULE_NAME = DropDown;
+				PRODUCT_NAME = DropDown;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		D121654E3881E7D49BD0A1DFB51DCAD6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B528F447CE5FB8BD6190A1B90CE622C8 /* Pods-KarooooSampleAppTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-KarooooSampleAppTests/Pods-KarooooSampleAppTests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-KarooooSampleAppTests/Pods-KarooooSampleAppTests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		E2CDE7BD114C532701D2E79C5CB4CAA8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FB9844B513AD59F789BBFD50B0369E77 /* DropDown.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/DropDown/DropDown-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/DropDown/DropDown-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/DropDown/DropDown.modulemap";
+				PRODUCT_MODULE_NAME = DropDown;
+				PRODUCT_NAME = DropDown;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		F95E4C330E939A7027D8A4E361545DBB /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3172F30E4CD73B3AA5ED36AB17F0F445 /* Alamofire.release.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/Alamofire/Alamofire-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Alamofire/Alamofire-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/Alamofire/Alamofire.modulemap";
+				PRODUCT_MODULE_NAME = Alamofire;
+				PRODUCT_NAME = Alamofire;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2515B1F000E3189165EE2EBF2A3D2CC4 /* Build configuration list for PBXNativeTarget "Pods-KarooooSampleAppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2B6CB48CD65FD42BB98EE03BCFEC893D /* Debug */,
+				D121654E3881E7D49BD0A1DFB51DCAD6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		29235CC975477CF0AE111D8533A857C9 /* Build configuration list for PBXNativeTarget "MDFInternationalization" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4EA1C47EA1053331DBCA33FF4B9D3A0D /* Debug */,
+				082649ABF65D30C0B8732BDDADE9DC4C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				45285987FDC204B9DB7C0228892D4B3E /* Debug */,
+				6AF9D8D0B4F4FA4695A8EEF773CD3FBC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		53052E6CBA1E65D6EF818199E617AC68 /* Build configuration list for PBXNativeTarget "DropDown" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E2CDE7BD114C532701D2E79C5CB4CAA8 /* Debug */,
+				C24518E891FAA59668669823639498EB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		726D5927959030BE8EFACAECD8601B02 /* Build configuration list for PBXNativeTarget "MaterialComponents" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				760ED325CEFD3831AA9BA0BE9196EE2E /* Debug */,
+				78D47196ABC89DCE592E29AAF67CE54B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8A212264186B8822192F9C369D7DE4BB /* Build configuration list for PBXNativeTarget "Alamofire" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				880219FBBFBA4B703A46B5F770D59ADF /* Debug */,
+				F95E4C330E939A7027D8A4E361545DBB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A63DF6417E335BC4C7AD621A7DBEF3D0 /* Build configuration list for PBXNativeTarget "Pods-KarooooSampleApp-KarooooSampleAppUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				00AC7E986190943485FF3F917F0F849C /* Debug */,
+				5201877E9FB1E6ABDB04DE69707DBCA4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FF9F4110335E910C736DFA714DB8EF9A /* Build configuration list for PBXNativeTarget "Pods-KarooooSampleApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				671032F4707913799AAE590718C7F6DB /* Debug */,
+				08049B775DDF1825DEA13075C1243981 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}
